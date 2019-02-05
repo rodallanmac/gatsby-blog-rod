@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-blog-rod",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
@@ -30,7 +30,7 @@
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0"
   },
-  "homepage": "https://github.com/rodallanmacleod/gatsby-blog-rod#readme",
+  "homepage": "https://github.com/rodallanmac/gatsby-blog-rod#readme",
   "keywords": [
     "gatsby"
   ],
@@ -38,7 +38,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodallanmacleod/gatsby-blog-rod.git"
+    "url": "git+https://github.com/rodallanmac/gatsby-blog-rod.git"
   },
   "scripts": {
     "build": "gatsby build",
