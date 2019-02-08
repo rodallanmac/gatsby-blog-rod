@@ -1,40 +1,51 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
+import Nav from './Nav'
+import Footer from "./Footer.js"
 
 
-class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
 
-    if (location.pathname === rootPath) {
-      header = (
-        <h1><Link  to={`/`} >{title}</Link></h1>
-      )
-    } else {
-      header = (
-        <h3><Link to={`/`}>{title}</Link></h3>
-      )
-    }
-    return (
+const Layout = ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render = {data => (
+      <div>
 
-        <div className="w-100">
-          <div className="w-100 mw6 center">
-            <header>{header}</header>
-            <main>{children}</main>
-          </div>
-          <div className="w-100 cf">
-            <footer className="mw6 center">
-              © {new Date().getFullYear()}, Built with
-              {` `}
-              <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </footer>
-          </div>
+        <Helmet
+            title={data.site.siteMetadata.title}
+            meta={[
+              { name: 'description', content: 'Sample' },
+              { name: 'keywords', content: 'sample, something' },
+            ]}
+          >
+          <html lang="en" />
+        </Helmet>
+
+        <Nav siteTitle={data.site.siteMetadata.title} />
+
+        <div>
+          {children}
         </div>
-    
-    )
-  }
+
+        <Footer/>
+        
+      </div>
+    )}
+  />
+)
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

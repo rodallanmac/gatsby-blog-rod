@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,600|Merriweather:700');
+
+
+html {  font-family: -apple-system, BlinkMacSystemFont,
+    'avenir next', avenir,
+    'helvetica neue', helvetica,
+    ubuntu,
+    roboto, noto,
+    'segoe ui', arial,
+    sans-serif; }
+
+
+/* FURTHER TACHYONS AND BROWSER RESETS ......... */
+
+  textarea:focus, input:focus { outline: none; }
+
+
+/* unvisited link */
+  a:link { outline: none; outline: 0; border: 0; text-decoration: none;}
+  /* visited link */
+  a:visited { outline: none; outline: 0; border: 0;}
+  /* mouse over link */
+  a:hover { outline: none; outline: 0; border: 0;}
+  /* selected link */
+  a:active { outline: none; outline: 0; border: 0; }
+  /* focus link */
+  a:link:focus { outline: none; outline: 0; border: 0;}
+
+ /* Button and Btn resets */
+  button, button:focus, button:active, 
+  .btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+      outline: none; outline: 0; border: 0;
+  }
+
+  input::-moz-focus-inner { border: 0;}
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 99, 71, 0.575);
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 99, 71, 0.575);
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 99, 71, 0.575);
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 99, 71, 0.575);
+  }
+
+  .shadow-5 { box-shadow: 0px 8px 25px 0 rgba( 0, 0, 0, .05 ); }
+  .text-shadow { text-shadow: 2px 2px 15px #000; }
+
+
+  /* ........... FURTHER BROWSER RESETS  */
+
+  /* FONT STYLEING FOR ARTICLES  */
+
+
+  article { width: 100%; }
+
+
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article h5,
+  article h6,
+  article p,
+  article ul,
+  article li { 
+    max-width:664px; 
+    margin: 0 auto; 
+    padding-left: 30px; padding-right: 30px; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  article ul { padding-left: 50px;}
+
+
+
+
+  article blockquote p { font-family : 'avenir'; color: rgb(100,100,100); font-weight: 500;}
+
+
+  /* FONT FAMILY  */
+  .logo-font { font-family: 'Merriweather', serif; }
+
+  h1,h2 { font-family: 'Noto Serif SC'; letter-spacing: .02em;}
+
+  article p, article li { 
+    margin-top: 1.5em; 
+    margin-bottom: 1em;
+    font-size: 1.01rem; line-height: 1.7rem;
+    font-family: 'Noto Serif SC'; 
+    color: rgb(60,60,60); 
+    letter-spacing: .01em;
+  }
+
+  article li { 
+    padding-left: 1em;
+    margin-bottom: 0em;
+    margin-top: .75em; 
+  }
+
+  /* FONT FAMILY COLURS LINKS AND HEADINGS ETC */
+  article a { 
+    color: rgb(0, 180, 135); 
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article h5,
+  article h6 { 
+    margin-top: 2.2em; 
+    margin-bottom:1em; 
+    color: rgb(40,40,40); 
+    letter-spacing: .01em;
+    line-height: 1.7em;
+  }
+
+
+
+  article blockquote
+  {
+    max-width:600px; border-left: 5px solid  rgba(0, 180, 135, .3); 
+    margin-left:0; 
+    padding-left: 2em; 
+    margin-top:3em; 
+    margin-bottom:3em; 
+  }
+
+
+
+  /* FLEX STYLEING FOR ARTICLES  */
+  .flex-reverse { flex-direction: row-reverse; }
+
+  .flex-hv-center {  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+  }
+
+  .min-vh-40 { min-height: 40vh; }
+  .min-vh-50 { min-height: 50vh; }
+
+  @media screen and (min-width: 30em) {
+    .flex-reverse-ns { flex-direction: row-reverse; }
+    .min-vh-40-ns { min-height: 40vh; }
+    .min-vh-50-ns { min-height: 50vh; }
+  }
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .flex-reverse-m { flex-direction: row-reverse; }
+    .min-vh-40-m { min-height: 40vh; }
+    .min-vh-50-m { min-height: 50vh; }
+  }
+  @media screen and (min-width: 60em) {
+    .flex-reverse-l { flex-direction: row-reverse; }
+    .min-vh-40-l { min-height: 40vh; }
+    .min-vh-50-l { min-height: 50vh; }
+  }
+
+
+
+
+
+
+  
+
+
