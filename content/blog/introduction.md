@@ -8,8 +8,10 @@ order: '1'
 
 **Gutenberg changed the world. The internet continued his efforts** 
 
-After the initial surveys, correspondents were appointed to make researches in the principal European libraries and museums;
-and this phase of the work continued until April, 1922. Simultaneous researches were conducted in American
-libraries and historical museums up to the time of the return of the final proofs to the printer in June, 1922.
-Ten years ago the sorting and classification of the material was begun. The actual writing of the
-manuscript has extended over four years. 
+In the early days of the Reformation, the revolutionary potential of bulk printing took princes and papacy by surprise. In the period from 1518 to 1524, the publication of books in Germany alone skyrocketed sevenfold; between 1518 and 1520, Luther's tracts were distributed in 300,000 printed copies.
+
+By 1500, the printing presses in operation throughout Western Europe had already produced more than twenty million copies. In the following century, output rose tenfold to an estimated 150 to 200 million copies.
+
+By the end of the 1700, it is estimated that between 1450-1800 European total output was a little shot of 1 000 000 000.
+
+Regarding electronic publishing these numbers appear vaguely familiar – except achieved within the last 20 years.
