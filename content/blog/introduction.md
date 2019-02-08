@@ -6,7 +6,7 @@ order: '1'
 ---
 
 
-**Gutenberg changed the world. The internet continued his efforts** 
+**Gutenberg printing press changed the world. The internet continues the tradition** 
 
 In the early days of the Reformation, the revolutionary potential of bulk printing took princes and papacy by surprise. In the period from 1518 to 1524, the publication of books in Germany alone skyrocketed sevenfold; between 1518 and 1520, Luther's tracts were distributed in 300,000 printed copies.
 
