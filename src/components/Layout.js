@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Nav from './Nav'
 import Footer from "./Footer.js"
+require("prismjs/plugins/line-numbers/prism-line-numbers.css")
 
 
 

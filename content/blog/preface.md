@@ -2,7 +2,9 @@
 title: Preface
 date: "1929-06-17"
 category: 'preface'
-img: 'https://images.unsplash.com/photo-1486575483544-1bc4b25681ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+img: 'https://images.pexels.com/photos/175742/pexels-photo-175742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+imgLink: 'https://www.pexels.com/@conojeghuo'
+imgAuthor: 'Clem Onojeghuo: London, UK'
 order: '2'
 ---
 
@@ -20,16 +22,16 @@ Among the unique features of the book are the Coffee Thesaurus; the Coffee Chron
 dates of historical importance; the Complete Reference Table of the Principal Kinds of Coffee Grown in the
 World; and the Coffee Bibliography, containing 1,380 references.
   
-The most authoritative works on this subject have been Robinson's The Early History of Coffee Houses in
-England, published in London in 1893; and Jardin's Le Café, published in Paris in 1895. The author wishes to
+The most authoritative works on this subject have been Robinson's *The Early History of Coffee Houses in
+England*, published in London in 1893; and Jardin's *Le Café*, published in Paris in 1895. The author wishes to
 acknowledge his indebtedness to both for inspiration and guidance. Other works, Arabian, French, English,
 German, and Italian, dealing with particular phases of the subject, have been laid under contribution; and
 where this has been done, credit is given by footnote reference. In all cases where it has been possible to do
 so, however, statements of historical facts have been verified by independent research. Not a few items have
 required months of tracing to confirm or to disprove.  
 
-There has been no serious American work on coffee since Hewitt's Coffee: Its History, Cultivation and
-Uses, published in 1872; and Thurber's Coffee from Plantation to Cup, published in 1881. Both of these are
+There has been no serious American work on coffee since *Hewitt's Coffee: Its History, Cultivation and
+Uses*, published in 1872; and Thurber's Coffee from Plantation to Cup, published in 1881. Both of these are
 now out of print, as is also Walsh's Coffee: Its History, Classification and Description, published in 1893.
 The chapters on The Chemistry of Coffee and The Pharmacology of Coffee have been prepared under the
 author's direction by Charles W. Trigg, industrial fellow of the Mellon Institute of Industrial Research.  
@@ -71,7 +73,7 @@ author's direction by Charles W. Trigg, industrial fellow of the Mellon Institut
 - Walter Chester, New York, for critical comments on chapter XXVIII.
 
 
-#####The author is especially indebted to the following, who in many ways have contributed to the successful compilation of the Complete Reference Table in chapter XXIV,and of those chapters having to do with the early history and development of the green coffee and the wholesale coffee-roasting trades in the United States:
+####The author is especially indebted to the following, who in many ways have contributed to the successful compilation of the Complete Reference Table in chapter XXIV,and of those chapters having to do with the early history and development of the green coffee and the wholesale coffee-roasting trades in the United States:
 
 George S. Wright, Boston; A.E. Forbes, William Fisher, Gwynne Evans, Jerome J. Schotten, and the late
 Julius J. Schotten, St. Louis; James H. Taylor, William Bayne, Jr., A.J. Dannemiller, B.A. Livierato, S.A.

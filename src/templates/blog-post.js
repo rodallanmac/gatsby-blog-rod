@@ -2,9 +2,10 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-
 import coffeeflask from "../../content/assets/coffeeflask.svg"
+import photographer from "../../content/assets/user.svg"
 import Bio from "../components/Bio"
+import Scrollable from "../components/scroll"
 
 
 class BlogPostTemplate extends React.Component {
@@ -18,18 +19,20 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
 
-          <div className="flex flex-column">
+          <div className="flex flex-column animated fadeIn">
 
-                      <div className="w-100 cf">
-                        <div className="w-100 min-vh-50 cover bg-bottom relative" style={{backgroundImage: 'url(' + post.frontmatter.img + '})'}}>
+
+                    {/* Page Block for Headline Picture and Pagination*/}
+                      <div className="w-100 cf nt6">
+                        <div className="w-100 cover bg-bottom relative" style={{backgroundImage: 'url(' + post.frontmatter.img + '})'}}>
 
                             <div className="mw7 center">
 
-                                  <div className="w-100 flex items-center min-vh-50 pt4-ns">
-                                    <div className="w-100 flex flex-column pl4">
-                                        <h6  className="fw6 white tracked-mega mb0 ttu tracked">{post.frontmatter.category} {post.frontmatter.order} </h6>
-                                        <h1 className="f2 f1-ns white fw6 mt2 mb3 text-shadow">{post.frontmatter.title}</h1>
-                                    </div>
+                                  <div className="w-100 flex items-center vh-85 pt6-ns">
+                                    <article>
+                                        <h6  className="fw6 white tracked-mega mb0 ttu">{post.frontmatter.category}</h6>
+                                        <h1 className="f2 f1-ns white fw6 mt2 mb3 text-shadow lh-solid">{post.frontmatter.title}</h1>
+                                    </article>
                                   </div>
 
                                   <div className="absolute bottom-0 left-0 pv3 bg-black-10 w-100">
@@ -37,7 +40,7 @@ class BlogPostTemplate extends React.Component {
 
                                           <div className="w-50">
                                             {previous && (
-                                              <Link className="f6 white tracked fl pl4 " to={previous.fields.slug} rel="prev">
+                                              <Link className="f7 white tracked fl ph4 tl" to={previous.fields.slug} rel="prev">
                                                 ← {previous.frontmatter.title}
                                               </Link>
                                             )}
@@ -45,7 +48,7 @@ class BlogPostTemplate extends React.Component {
 
                                           <div className="w-50">
                                             {next && (
-                                              <Link className="f6 white tracked fr pr4" to={next.fields.slug} rel="next">
+                                              <Link className="f7 white tracked fr ph4 tr" to={next.fields.slug} rel="next">
                                                 {next.frontmatter.title} →
                                               </Link>
                                             )}
@@ -60,53 +63,58 @@ class BlogPostTemplate extends React.Component {
                        </div>
 
                        <div className="w-100 cf">
-                         <div id="imgCaption" className="f7 gray fr ph4 pt3">{post.frontmatter.imgPlace} →  <a className="link orange tracked pl2" href={post.frontmatter.imgLink} >{post.frontmatter.imgAuthor}</a> </div>
+                         <div id="imgCaption" className="f7 black-50 fr-ns ph4 pt3 flex flex-wrap items-center">
+                            <a className="link tracked-sm black-50 pr2 pointer avenir" href={post.frontmatter.imgLink} >
+                              <img className="pr1" src={photographer} alt="africa globe" width="13"/>  {post.frontmatter.imgAuthor}
+                            </a> 
+                         </div>
                        </div>
 
 
-            <div className="w-100 pt3 pt5-ns">
+            <div className="w-100 pt3 ">
 
+
+                  {/* Page article content*/}
                   <article>
                       <div dangerouslySetInnerHTML={{ __html: post.html }}/>
                   </article>
 
-                  <div class="w-100 pv4 cf">
-                  <div class="center tc">
+                  <div className="w-100 pv4 cf">
+                  <div className="center tc">
                       <img src={coffeeflask} alt="All about Coffee logo" width="100"/>
                   </div>
                   </div>
 
-
+                  {/* Previous and Next pagination at the bottom of the page*/}
                   <div className="w-100 cf pv3">
-                 
                     <div className="flex items-center">
-
-                       
+                      
                           {previous && (
-                            <Link className="w-50 f6 gray pointer" to={previous.fields.slug} rel="prev">
-                              <div className="fl  pl4">
+                            <Link className="w-50 f6 gray pointer avenir" to={previous.fields.slug} rel="prev">
+                              <div className="fl pl4 tl">
                                 ← {previous.frontmatter.title}
                                 </div>
                             </Link>
                           )}
                      
-
-                        
                           {next && (
-                            <Link className="w-50 f6 gray pointer" to={next.fields.slug} rel="next">
-                              <div className="fr pr4 ">
+                            <Link className="w-50 f6 gray pointer avenir" to={next.fields.slug} rel="next">
+                              <div className="fr pr4 tr">
                                {next.frontmatter.title} →
                               </div>
                             </Link>
                           )}
-                        
 
-                    </div>
-                                  
+                     </div>
                     </div>
 
+
+                    {/* Avitar and bio of Author*/}
                     <Bio/>
 
+
+                    {/* Social Share buttons*/}
+                    <Scrollable />
                   
               </div>
           </div>
@@ -137,7 +145,6 @@ export const pageQuery = graphql`
         img
         imgLink
         imgAuthor
-        imgPlace
         order
       }
     }

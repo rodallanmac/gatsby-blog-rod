@@ -1,17 +1,38 @@
 ---
-title: Introduction
+title: Not another book on coffee?
+date: "1929-06-17"
 category: 'introduction'
-img: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1256&q=80'
+img: 'https://images.pexels.com/photos/9186/food-beans-coffee-drink.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+imgAuthor: 'https://skitterphoto.com'
+imgLink: 'https://skitterphoto.com'
 order: '1'
 ---
 
+##For the love of the berry?
 
-**Gutenberg printing press changed the world. The internet continues the tradition** 
 
-In the early days of the Reformation, the revolutionary potential of bulk printing took princes and papacy by surprise. In the period from 1518 to 1524, the publication of books in Germany alone skyrocketed sevenfold; between 1518 and 1520, Luther's tracts were distributed in 300,000 printed copies.
+In old world terms you've just opened the cover of a 715 page A4 book, ***All about Coffee*, by William H.Ukers, M.A., 1922**. It is an exhaustive historical account on how the humble little coffee berry shaped  our imagination, created legends, demanded the attention of the religious, determined  politics, and expanded commercial empires – it literally delivers on the promise of 'All' in its title. If you love coffee enjoy the read. 
 
-By 1500, the printing presses in operation throughout Western Europe had already produced more than twenty million copies. In the following century, output rose tenfold to an estimated 150 to 200 million copies.
+However, the actual intention of this site is to test the claims of [**Gatsby.js**](https://www.gatsbyjs.org/).
 
-By the end of the 1700, it is estimated that between 1450-1800 European total output was a little shot of 1 000 000 000.
+[**Gatsby**](https://www.gatsbyjs.org/)  is a static web application builder using react javascript with built in *Graphql* query language as an API. 
 
-Regarding electronic publishing these numbers appear vaguely familiar – except achieved within the last 20 years.
+
+Gatsby trumpets out claims of superior performance, lightning fast page speeds, ease of deployment and infinite server scalability.  
+
+So a good testing starting point. Throw a beast of a document at it and see how it runs.
+
+The set up of the data required a 715 page conversion of plain text converted to HTML and styled with CSS. 
+
+My first attempt was to take Guternberg PDF version of the book and use the Adobe PDF to microsoft docx file conversion. With the MS word file in place process it through Pandoc software which gives you the markdown conversion. (Pandoc's is terminal based software that can do multiple file 'type' conversions – it is particularly adept with citation, bibliography and footnote conversion but you need a separate citation json file that it can map to). 
+
+This did not work as expected. The white space conversion proved problematic. The issue was less to do with Pandoc than it was with Adobes to MS word conversion.
+
+I found a raw text file and copied and pasted chapter by chapter.
+
+
+Whilst going about this tedious task, to explore how easy it is to cross over from, a HTML WYSWIG editing and design interface, to using Markup as a design tool for typography, typesetting, images, videos, audio and dynamic layout of UI styles and wireframes. 
+
+
+
+

@@ -2,9 +2,8 @@
 title: A Coffee Thesaurus
 category: 'thesaurus'
 img: 'https://images.unsplash.com/photo-1518800383600-44551b3c739c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
-imgAuthor: 'Gerson Cifuentes'
+imgAuthor: 'Gerson Cifuentes: Coffee, Tajumulco, Guatemala'
 imgLink: 'https://unsplash.com/photos/W1VqcpcnSHk'
-imgPlace: 'Coffee, Tajumulco, Guatemala'
 order: '4'
 ---
 

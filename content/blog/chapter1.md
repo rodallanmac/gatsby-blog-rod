@@ -2,9 +2,8 @@
 title: Dealing with the etymology of coffee
 category: 'chapter 1'
 img: 'https://images.unsplash.com/photo-1462690417829-5b41247f6b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
-imgAuthor: 'Christian Joudrey'
+imgAuthor: 'Christian Joudrey: Kauai Coffee Company, Kalaheo, United States'
 imgLink: 'https://unsplash.com/photos/aO_jMXTduUE'
-imgPlace: 'Kauai Coffee Company, Kalaheo, United States'
 order: '5'
 ---
 
@@ -64,3 +63,62 @@ to Mocha, that "Shaomer Shadli (Shaikh 'Ali bin 'Omar esh-Shādil) was the fyrst
 coffe, and therefor had in esteemation." This rather looks to Prideaux as if on the coast of Arabia, and in the
 mercantile towns, the Persian pronunciation was in vogue; whilst in the interior, where Jourdain traveled, the
 Englishman reproduced the Arabic.
+
+Mr. Chattopádhyáya, discussing Col. Prideaux's views as expressed above, said:
+Col. Prideaux may doubt "if the worthy mariner, in entering the word in his log, was influenced by
+the abstruse principles of phonetics enunciated" by me, but he will admit that the change from kahvah to
+coffee is a phonetic change, and must be due to the operation of some phonetic principle. The average
+man, when he endeavours to write a foreign word in his own tongue, is handicapped considerably by his
+inherited and acquired phonetic capacity. And, in fact, if we take the quotations made in "Hobson-
+Jobson," and classify the various forms of the word coffee according to the nationality of the writer, we
+obtain very interesting results.
+Let us take Englishmen and Dutchmen first. In Danvers's Letters (1611) we have both "coho pots"
+and "coffao pots"; Sir T. Roe (1615) and Terry (1616) have cohu; Sir T. Herbert (1638) has coho and
+copha; Evelyn (1637), coffee; Fryer (1673) coho; Ovington (1690), coffee; and Valentijn (1726), coffi.
+And from the two examples given by Col. Prideaux, we see that Jourdain (1609) has cohoo, and Revett
+(1609) has coffe.
+To the above should be added the following by English writers, given in Foster's English Factories in
+India (1618–21, 1622–23, 1624–29): cowha (1619), cowhe, couha (1621), coffa (1628).
+Let us now see what foreigners (chiefly French and Italian) write. The earliest European mention is by
+Rauwolf, who knew it in Aleppo in 1573. He has the form chaube. Prospero Alpini (1580) has caova;
+Paludanus (1598) chaoua; Pyrard de Laval (1610) cahoa; P. Della Valle (1615) cahue; Jac. Bontius (1631) caveah; 
+and the Journal d'Antoine Galland (1673) cave. That is, Englishmen use forms of a certain distinct
+type, viz., cohu, coho, coffao, coffe, copha, coffee, which differ from the more correct transliteration of
+foreigners.
+
+In 1610 the Portuguese Jew, Pedro Teixeira (in the Hakluyt Society's edition of his Travels) used the word
+*kavàh*.
+
+The inferences from these transitional forms seem to be: 
+1. The word found its way into the languages of Europe both from the Turkish and from the Arabic. 
+2. The English forms (which have strong stress on the first syllable) have ŏ instead of ă, and f instead of h. 
+3. The foreign forms are unstressed and have no h. The original v or w (or labialized u) is retained or changed into f.
+
+It may be stated, accordingly, that the chief reason for the existence of two distinct types of spelling is the
+omission of h in unstressed languages, and the conversion of h into f under strong stress in stressed languages.
+Such conversion often takes place in Turkish; for example, silah dar in Persian (which is a highly stressed
+language) becomes zilif dar in Turkish. In the languages of India, on the other hand, in spite of the fact that
+the aspirate is usually very clearly sounded, the word qăhvăh is pronounced kaiva by the less educated classes,
+owing to the syllables being equally stressed.
+
+Now for the French viewpoint. Jardin[3] opines that, as regards the etymology of the word coffee, scholars
+are not agreed and perhaps never will be. Dufour[4] says the word is derived from caouhe, a name given by
+the Turks to the beverage prepared from the seed. Chevalier d'Arvieux, French consul at Alet, Savary, and
+Trevoux, in his dictionary, think that coffee comes from the Arabic, but from the word cahoueh or quaweh,
+meaning to give vigor or strength, because, says d'Arvieux, its most general effect is to fortify and strengthen.
+Tavernier combats this opinion. Moseley attributes the origin of the word coffee to Kaffa. Sylvestre de Sacy,
+in his Chréstomathie Arabe, published in 1806, thinks that the word kahwa, synonymous with makli, roasted
+in a stove, might very well be the etymology of the word coffee. D'Alembert in his encyclopedic dictionary,
+writes the word caffé. Jardin concludes that whatever there may be in these various etymologies, it remains a
+fact that the word coffee comes from an Arabian word, whether it be kahua, kahoueh, kaffa or kahwa, and that
+the peoples who have adopted the drink have all modified the Arabian word to suit their pronunciation. 
+
+This is shown by giving the word as written in various modern languages:
+French, café; Breton, kafe; German, kaffee (coffee tree, kaffeebaum); Dutch, koffie (coffee tree,
+koffieboonen); Danish, kaffe; Finnish, kahvi; Hungarian, kavé; Bohemian, kava; Polish, kawa; Roumanian,
+cafea; Croatian, kafa; Servian, kava; Russian, kophe; Swedish, kaffe; Spanish, café; Basque, kaffia; Italian,
+caffè; Portuguese, café; Latin (scientific), coffea; Turkish, kahué; Greek, kaféo; Arabic, qahwah (coffee berry,
+bun); Persian, qéhvé (coffee berry, bun[5]); Annamite, ca-phé; Cambodian, kafé; Dukni[6], bunbund[7];
+Teluyan[8], kapri-vittulu; Tamil[9], kapi-kottai or kopi; Canareze[10], kapi-bija; Chinese, kia-fey, teoutsé;
+Japanese, kéhi; Malayan, kawa, koppi; Abyssinian, bonn[11]; Foulak, legal café[12]; Sousou, houri caff[13];
+Marquesan, kapi; Chinook[14], kaufee; Volapuk, kaf; Esperanto, kafva.

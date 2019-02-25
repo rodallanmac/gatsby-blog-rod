@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,600|Merriweather:700');
-
+:root {
+  --a-link: rgb(0, 180, 135); 
+}
 
 html {  font-family: -apple-system, BlinkMacSystemFont,
     'avenir next', avenir,
@@ -35,30 +37,52 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   input::-moz-focus-inner { border: 0;}
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: rgba(255, 99, 71, 0.575);
+    color: var(--a-link);
   }
   ::-moz-placeholder { /* Firefox 19+ */
-    color: rgba(255, 99, 71, 0.575);
+    color: var(--a-link);
   }
   :-ms-input-placeholder { /* IE 10+ */
-    color: rgba(255, 99, 71, 0.575);
+    color: var(--a-link);
   }
   :-moz-placeholder { /* Firefox 18- */
-    color: rgba(255, 99, 71, 0.575);
+    color: var(--a-link);
   }
 
-  .shadow-5 { box-shadow: 0px 8px 25px 0 rgba( 0, 0, 0, .05 ); }
-  .text-shadow { text-shadow: 2px 2px 15px #000; }
+
+ /* STYLES FOR TEXT */
+ .tracked-sm { letter-spacing: .05em; }
+ .tracked-mega { letter-spacing: .3em; }
+ .shadow-5 { box-shadow: 0px 8px 25px 0 rgba( 0, 0, 0, .05 ); }
+ .text-shadow { text-shadow: 2px 2px 15px #000; }
 
 
-  /* ........... FURTHER BROWSER RESETS  */
+/* POSITION TOP LEFT RIGHT */
+ .top-3 { top: 3rem; }
+ .top-4 { top: 4rem; }
+ .top-5 { top: 5rem; }
+ .top-6 { top: 6rem; }
+
+ .left-3 { left: 3rem; }
+ .left-4 { left: 4rem; }
+ .left-5 { left: 5rem; }
+ .left-6 { left: 6rem; }
+
+ /* SQUARE WIDTH HEIGHT */
+ .square-1 { width: 1rem; height: 1rem; }
+ .square-1-5 { width: 1.5rem; height: 1.5rem; }
+ .square-2 { width: 2rem; height: 2rem; }
+
+
+  /* VH_HEIGHT ADDITION */
+  .vh-80 { height: 80vh; }
+  .vh-85 { height: 85vh; }
+  .square-1-5 { width: 1.5rem; height: 1.5rem; }
+  .square-2 { width: 2rem; height: 2rem; }
+ 
 
   /* FONT STYLEING FOR ARTICLES  */
-
-
   article { width: 100%; }
-
-
   article h1,
   article h2,
   article h3,
@@ -67,6 +91,7 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   article h6,
   article p,
   article ul,
+  article ol,
   article li { 
     max-width:664px; 
     margin: 0 auto; 
@@ -77,24 +102,54 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   }
 
   article ul { padding-left: 50px;}
+  article ol { padding-left: 50px;}
 
+  article blockquote
+  {
+    max-width:600px; border-left: 3px solid  rgb(230, 99, 59); 
+    margin:0 auto; 
+    padding-left: .5em; 
+  }
 
+  article blockquote p, 
+  article blockquote h1, 
+  article blockquote h2, 
+  article blockquote h3 { 
+    font-family : 'avenir'; color: rgb(100,100,100); font-weight: 400;
+    margin-top:3em; 
+    margin-bottom:0em; 
+  }
 
+  article blockquote + p > a { font-family : 'avenir'; color: var(--a-link); font-weight: 400; }
 
-  article blockquote p { font-family : 'avenir'; color: rgb(100,100,100); font-weight: 500;}
+  /* FOOTNOTES AND CITATIONS  */
+  article .footnotes {   margin-top:4em; margin-bottom:3em;  }
+  article .footnotes hr {  
+    max-width:600px;
+    margin: 0 auto;
+    margin-top:3em;  
+    margin-bottom:2em;      
+    border:0;
+    width:100%;
+    height:1px;
+    background: var(--a-link); }
+  article .footnotes ol { font-family : 'avenir'; padding-right: 0;}
+  article .footnotes ol li { font-family : 'avenir'; padding-left: 0;}
+  article .footnotes li > p { font-family : 'avenir'; display: inline; padding-right: 0; padding-left: 0; }
+ 
 
 
   /* FONT FAMILY  */
   .logo-font { font-family: 'Merriweather', serif; }
 
-  h1,h2 { font-family: 'Noto Serif SC'; letter-spacing: .02em;}
+  h1,h2, h3 { font-family: 'Noto Serif SC'; letter-spacing: .02em;}
 
   article p, article li { 
     margin-top: 1.5em; 
     margin-bottom: 1em;
     font-size: 1.01rem; line-height: 1.7rem;
     font-family: 'Noto Serif SC'; 
-    color: rgb(60,60,60); 
+    color: rgb(30,30,30); 
     letter-spacing: .01em;
   }
 
@@ -106,10 +161,11 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
 
   /* FONT FAMILY COLURS LINKS AND HEADINGS ETC */
   article a { 
-    color: rgb(0, 180, 135); 
+    color: var(--a-link);
     letter-spacing: .01em;
     font-weight: 400;
     font-size: 1rem;
+    word-wrap: break-word;
   }
 
   article h1,
@@ -126,46 +182,85 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   }
 
 
-
-  article blockquote
-  {
-    max-width:600px; border-left: 5px solid  rgba(0, 180, 135, .3); 
-    margin-left:0; 
-    padding-left: 2em; 
-    margin-top:3em; 
-    margin-bottom:3em; 
-  }
-
-
-
   /* FLEX STYLEING FOR ARTICLES  */
   .flex-reverse { flex-direction: row-reverse; }
 
   .flex-hv-center {  
     display: flex;
-    justify-content: center;
-    align-items: center;     
+    justify-content: center;   
   }
 
   .min-vh-40 { min-height: 40vh; }
   .min-vh-50 { min-height: 50vh; }
 
+  @media screen and (max-width: 30em) {
+    article blockquote {
+    margin:0 auto; 
+    margin-left: 30px;
+    }
+    article blockquote p {
+      padding-left: .4em; 
+      }
+  }
+
   @media screen and (min-width: 30em) {
     .flex-reverse-ns { flex-direction: row-reverse; }
     .min-vh-40-ns { min-height: 40vh; }
     .min-vh-50-ns { min-height: 50vh; }
+    .bg-transparent-ns { background-color: transparent }
   }
   @media screen and (min-width: 30em) and (max-width: 60em) {
     .flex-reverse-m { flex-direction: row-reverse; }
     .min-vh-40-m { min-height: 40vh; }
     .min-vh-50-m { min-height: 50vh; }
+    .bg-transparente-m { background-color: transparent }
   }
   @media screen and (min-width: 60em) {
     .flex-reverse-l { flex-direction: row-reverse; }
     .min-vh-40-l { min-height: 40vh; }
     .min-vh-50-l { min-height: 50vh; }
+    .bg-transparente-m { background-color: transparent }
   }
 
+
+
+
+ /**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+.gatsby-highlight {
+  background-color: rgb(34, 31, 65);
+  border-radius: 0;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ * 3. Adjust the position of the line numbers
+ */
+.gatsby-highlight pre[class*="language-"] {
+  background-color:  rgb(34, 31, 65);
+  margin: 0 auto;
+  padding-left: 30px;;
+  overflow: initial;
+  max-width:600px; 
+}
+
+
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding-left: 2.8em;
+}
 
 
 

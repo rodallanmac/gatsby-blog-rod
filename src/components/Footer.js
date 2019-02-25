@@ -2,20 +2,20 @@ import React from "react"
 
 export default () => (
 
-<footer className="pa4 pa5-l black-70 bt b--black-10 mt5">
+<footer className="pa4 pa5-l black-70 bt b--black-10 ">
 <div className="mw8 center">
   <div className="mb4-l cf">
-    <h1 className="fl w-100 pv0 f6 fw6 ttu tracked mb4">Studios</h1>
-    <article className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
-      <h4 className="f5 f4-l fw6">SF</h4>
+    <div className="fl w-100 pv0 f6 fw6 ttu tracked mb4">Studios</div>
+    <section className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
+      <h4 className="f5 f4-l fw6">Durban</h4>
       <span className="f7 f6-l db black-70">837 Larkin St.</span>
       <span className="f7 f6-l black-70">San Francisco, CA 94109 </span>
       <a className="f6 db fw6 pv3 black-70 link dim" title="Call SF" href="tel:+12075555555">
         +1 207-555-5555
       </a>
-    </article>
-    <article className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
-      <h4 className="f5 f4-l fw6">LA</h4>
+    </section>
+    <section className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
+      <h4 className="f5 f4-l fw6">Cape Town</h4>
       <span className="f7 f6-l db black-70">
         1111 Manor Way
       </span>
@@ -25,21 +25,21 @@ export default () => (
       <a href="tel:+13235555555" className="f6 db fw6 pv3 link dim black-70" title="Call the LA office.">
         +1 323-555-5555
       </a>
-    </article>
-    <article className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
-      <h4 className="f5 f4-l fw6">London</h4>
+    </section>
+    <section className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
+      <h4 className="f5 f4-l fw6">San Fransico</h4>
       <span className="f7 f6-l db black-70">11 Downey St.</span>
-      <span className="f7 f6-l black-70">London, UK</span>
+      <span className="f7 f6-l black-70">California, USA</span>
       <a href="tel:+5555555555" className="link dim f6 db fw6 pv3 black-70" title="Call the London office">+44 0 5555-5555</a>
-    </article>
-    <article className="fl w-50 dib-ns w-auto-ns mb4 pl2 pl0-ns">
+    </section>
+    <section className="fl w-50 dib-ns w-auto-ns mb4 pl2 pl0-ns">
       <h4 className="f5 f4-l fw6">Tokyo</h4>
       <span className="f7 f6-l db black-70">1982 Flangan Rd.</span>
       <span className="f7 f6-l">Shinjuku, Tokyo</span>
       <a href="tel:+444444444444" className="f6 db dim fw6 pv3 link black-70" title="Call Tokyo Office">
         +99 5555-5555
       </a>
-    </article>
+    </section>
   </div>
   <section className="cf mb5">
     <div className="mb4 mb0-ns w-100 w-50-l fr">
@@ -57,11 +57,12 @@ export default () => (
   </section>
   <div className="dt dt--fixed w-100" >
     <div className="dn dtc-ns v-mid">
-      <p className="f7 black-70 dib pr3 mb3">
+      <div className="f7 black-70 dib pr3 mb3">
     
-      Copyright © Rod – {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+      Copyright © Rod – {new Date().getFullYear()}, Built with <a className="orange" href="https://www.gatsbyjs.org">Gatsby</a>
+      <div>Icons made by <a className="orange" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a className="orange" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a className="orange" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></div>
    
-      </p>
+      </div>
     </div>
     <div className="db dtc-ns black-70 tc tr-ns v-mid">
       <a href="https://www.facebook.com/" className="link dim dib mr3 black-70" title="Impossible Labs on Facebook">
