@@ -2,10 +2,11 @@
 title: Not another book on coffee?
 date: "1929-06-17"
 category: 'introduction'
-img: 'https://images.pexels.com/photos/9186/food-beans-coffee-drink.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+cover: ./food-beans-coffee-drink.jpg
 imgAuthor: 'https://skitterphoto.com'
 imgLink: 'https://skitterphoto.com'
 order: '1'
+heroStyle: 'fullwidth'
 ---
 
 ##For the love of the berry?
@@ -32,7 +33,3 @@ I found a raw text file and copied and pasted chapter by chapter.
 
 
 Whilst going about this tedious task, to explore how easy it is to cross over from, a HTML WYSWIG editing and design interface, to using Markup as a design tool for typography, typesetting, images, videos, audio and dynamic layout of UI styles and wireframes. 
-
-
-
-

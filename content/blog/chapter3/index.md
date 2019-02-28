@@ -1,10 +1,11 @@
 ---
 title: Early History of Coffee Drinking
 category: 'chapter 3'
-img: 'https://images.unsplash.com/photo-1517470451671-c9fcaffc2db3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80'
 imgAuthor: 'Marco Secchi: London, United Kingdom'
 imgLink: 'https://unsplash.com/photos/7BEEf5h0T84'
 order: '7'
+cover: ./old-coffee-pot.jpeg
+heroStyle: 'fullwidth'
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 title: Dealing with the etymology of coffee
 category: 'chapter 1'
-img: 'https://images.unsplash.com/photo-1462690417829-5b41247f6b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
 imgAuthor: 'Christian Joudrey: Kauai Coffee Company, Kalaheo, United States'
 imgLink: 'https://unsplash.com/photos/aO_jMXTduUE'
 order: '5'
+cover: ./coffee_plant.jpeg
+heroStyle: 'fullwidth'
 ---
 
 ***Origin and translation of the word from the Arabian into various languages—Views of many writers***

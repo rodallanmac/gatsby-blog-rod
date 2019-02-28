@@ -2,13 +2,15 @@ module.exports = {
   siteMetadata: {
     title: `All about Coffee`,
     author: `Design and transcription by Rod MacLeod`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A starter book site powered by Gatsby JS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: ``,
     },
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -29,11 +31,11 @@ module.exports = {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
-            options: { maxWidth: 590,},
-          },
-          {
-            resolve: "gatsby-remark-component",
-            options: { components: ["my-component", "other-component"] }
+            options: {
+              maxWidth: 900,
+              linkImagesToOriginal: false,
+              withWebp: true,
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
@@ -41,14 +43,37 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              // Class prefix for <pre> tags containing syntax highlighting;
+              // defaults to 'language-' (eg <pre class="language-js">).
+              // If your site loads Prism into the browser at runtime,
+              // (eg for use with libraries like react-live),
+              // you may use this to prevent Prism from re-processing syntax.
+              // This is an uncommon use-case though;
+              // If you're unsure, it's best to use the default value.
+              classPrefix: "language-",
+              // This is used to allow setting a language for inline code
+              // (i.e. single backticks) by creating a separator.
+              // This separator is a string and will do no white-space
+              // stripping.
+              // A suggested value for English speakers is the non-ascii
+              // character '›'.
+              inlineCodeMarker: null,
+              // This lets you set up language aliases.  For example,
+              // setting this to '{ sh: "bash" }' will let you use
+              // the language "sh" which will highlight using the
+              // bash highlighter.
+              aliases: {},
+            },
+          },
+          `gatsby-remark-smartypants`,
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-unwrap-images"
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

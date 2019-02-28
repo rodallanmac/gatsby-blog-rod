@@ -1,10 +1,10 @@
 ---
 title: History of coffee propagation
 category: 'chapter 2'
-img: 'https://images.unsplash.com/photo-1546470815-a9fc0efa8c41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80'
 imgAuthor: 'Rodrigo Flores: El Salvador'
 imgLink: 'https://unsplash.com/photos/HbA1UngeCp8'
 order: '6'
+cover: ./coffee_tree.jpeg
 ---
 
 ***A brief account of the cultivation of the coffee plant in the Old World and its introduction into the New— A romantic coffee adventure***

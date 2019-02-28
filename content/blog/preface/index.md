@@ -2,10 +2,10 @@
 title: Preface
 date: "1929-06-17"
 category: 'preface'
-img: 'https://images.pexels.com/photos/175742/pexels-photo-175742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
 imgLink: 'https://www.pexels.com/@conojeghuo'
 imgAuthor: 'Clem Onojeghuo: London, UK'
 order: '2'
+cover: ./old-coffee-pot.jpeg
 ---
 
 

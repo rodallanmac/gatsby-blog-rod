@@ -5,6 +5,7 @@ img: 'https://images.unsplash.com/photo-1518800383600-44551b3c739c?ixlib=rb-1.2.
 imgAuthor: 'Gerson Cifuentes: Coffee, Tajumulco, Guatemala'
 imgLink: 'https://unsplash.com/photos/W1VqcpcnSHk'
 order: '4'
+cover: ./coffee-branch-berry.jpeg
 ---
 
 

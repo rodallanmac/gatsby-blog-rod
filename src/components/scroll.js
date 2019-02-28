@@ -21,7 +21,7 @@ export default class Scrollable extends React.Component {
  handleScroll = () => {
     this.setState({ x: window.scrollX, y: window.scrollY});
 
-    if ( this.state.y > 200 ) { this.setState({ show: 'db fixed-l animated fadeIn z-9999' }) } else {
+    if ( this.state.y > 600 ) { this.setState({ show: 'db fixed-l animated fadeIn z-9999' }) } else {
         this.setState({ show: '' })
     }
 }

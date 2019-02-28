@@ -13,7 +13,7 @@ class BlogIndex extends React.Component {
   constructor(props) {
     super(props);
     console.log(this.props)
-    console.log( this.props.location.origin)
+    console.log('href: ' +  this.props.location.href)
     this.state = { toggle: ''};
     autoBind(this);
   }
@@ -28,6 +28,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -47,8 +48,12 @@ class BlogIndex extends React.Component {
               </div>
             </div>
 
+
+   
+
+
           
-            <div className={"bg-white w-100 animated faster ph4 " + this.state.toggle} >
+            <div id="contents" className={"bg-white w-100 animated faster ph4 " + this.state.toggle} >
                <div className="measure">
                     {posts.map(({ node }) => {
                       const title = node.frontmatter.title || node.fields.slug
@@ -92,10 +97,10 @@ export const pageQuery = graphql`
             title
             category
             order
-            img
           }
         }
       }
     }
   }
 `
+
