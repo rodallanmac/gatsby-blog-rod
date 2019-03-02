@@ -2,7 +2,7 @@
 title: Not another book on coffee?
 date: "1929-06-17"
 category: 'introduction'
-cover: ./food-beans-coffee-drink.jpg
+cover: './food-beans-coffee-drink.jpg'
 imgAuthor: 'https://skitterphoto.com'
 imgLink: 'https://skitterphoto.com'
 order: '1'

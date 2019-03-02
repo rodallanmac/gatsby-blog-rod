@@ -4,7 +4,7 @@ category: 'chapter 3'
 imgAuthor: 'Marco Secchi: London, United Kingdom'
 imgLink: 'https://unsplash.com/photos/7BEEf5h0T84'
 order: '7'
-cover: ./old-coffee-pot.jpeg
+cover: './old-coffee-pot.jpeg'
 heroStyle: 'fullwidth'
 ---
 

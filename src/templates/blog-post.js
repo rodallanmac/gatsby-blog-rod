@@ -18,6 +18,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+   console.log( post )
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -29,23 +30,26 @@ class BlogPostTemplate extends React.Component {
                    {post.frontmatter.heroStyle === 'fullwidth' ? 
 
                       <HeroFullWidth 
-                      heroImg= {post.frontmatter.cover && post.frontmatter.cover.publicURL}
+                      heroImg= {post.frontmatter.cover.childImageSharp.fluid.src}
+                      srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
                       previous = {previous}
                       next = {next}
                       />
 
-                    :
+                     :
 
                       <HeroSplitWidth 
-                      heroImg= {post.frontmatter.cover && post.frontmatter.cover.publicURL}
+                      heroImg= {post.frontmatter.cover.childImageSharp.fluid.src}
+                      srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
                       excerpt= {post.excerpt} 
                       previous = {previous}
                       next = {next}
                       />
+
 
                     }
 
@@ -134,8 +138,12 @@ export const pageQuery = graphql`
         imgAuthor
         order
         cover {
-          publicURL
-        } 
+                childImageSharp{
+                  fluid( maxWidth: 1400 ) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
         heroStyle
       }
     }

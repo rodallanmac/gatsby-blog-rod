@@ -6,21 +6,21 @@ export default class Scrollable extends React.Component {
     constructor(props) {
         super(props)
         this.state = { x: 0, y: 0, show: '' };
+        this.handler = this.handleScroll.bind(this);
       }
 
 
   componentDidMount() {
-    if (typeof window !== 'undefined') { window.addEventListener('scroll', throttle(this.handleScroll, 1000))}
+    window.addEventListener('scroll', throttle(this.handleScroll, 1000))
   }
 
   componentWillUnmount() {
-    if (typeof window !== 'undefined') { window.removeEventListener('scroll', this.handleScroll)}
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
 
- handleScroll = () => {
+handleScroll = () =>  {
     this.setState({ x: window.scrollX, y: window.scrollY});
-
     if ( this.state.y > 600 ) { this.setState({ show: 'db fixed-l animated fadeIn z-9999' }) } else {
         this.setState({ show: '' })
     }

@@ -5,7 +5,7 @@ category: 'forward'
 imgAuthor: 'Karl Fredrickson'
 imgLink: 'https://unsplash.com/photos/TYIzeCiZ_60'
 order: '3'
-cover: ./coffee-pour-over.jpeg
+cover: './coffee-pour-over.jpeg'
 ---
 
 ***Some introductory remarks on the lure of coffee, its place in a rational dietary, its universal psychological appeal, its use and abuse.***

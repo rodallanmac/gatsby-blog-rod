@@ -4,7 +4,7 @@ category: 'chapter 1'
 imgAuthor: 'Christian Joudrey: Kauai Coffee Company, Kalaheo, United States'
 imgLink: 'https://unsplash.com/photos/aO_jMXTduUE'
 order: '5'
-cover: ./coffee_plant.jpeg
+cover: './coffee_plant.jpeg'
 heroStyle: 'fullwidth'
 ---
 
