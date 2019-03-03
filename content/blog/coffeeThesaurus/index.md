@@ -9,7 +9,7 @@ cover: './coffee-branch-berry.jpeg'
 ---
 
 
-***Encomiums and descriptive phrases applied to the plant, the berry, and the beverage***
+***Encomiums and descriptive phrases applied to the plant, the berry, and the beverage.***
 
 ####The Plant####
 

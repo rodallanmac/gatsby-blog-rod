@@ -7,7 +7,8 @@ order: '6'
 cover: ./coffee_tree.jpeg
 ---
 
-***A brief account of the cultivation of the coffee plant in the Old World and its introduction into the New— A romantic coffee adventure***
+***A brief account of the cultivation of the coffee plant in the Old World and its introduction into the New— A romantic coffee adventure.***
+
 
 THE history of the propagation of the coffee plant is closely interwoven with that of the early history of
 coffee drinking, but for the purposes of this chapter we shall consider only the story of the inception and

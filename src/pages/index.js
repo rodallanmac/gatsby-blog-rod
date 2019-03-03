@@ -61,7 +61,7 @@ class BlogIndex extends React.Component {
                         <div key={node.fields.slug}>
                           <h6 className="fw4 lh-copy dark-red mb1 ttu tracked">{node.frontmatter.category}</h6>
                           <h3 className="f4 mv0 pb2 pr3"><Link className="link dim black" to={node.fields.slug}>{title}</Link></h3>
-                          <p className="f6 fw4 lh-copy dar-gray mv0 pb4 tracked-sm" dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                          <p className="f6 fw4 lh-copy dar-gray mv0 pb4 tracked-sm">{node.excerpt.replace(/\..*$/i, '.')}</p>
                         </div>
                       )
                     })}
@@ -88,7 +88,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___order], order: ASC }) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 250)
           fields {
             slug
           }

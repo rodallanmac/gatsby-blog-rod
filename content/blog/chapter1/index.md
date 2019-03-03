@@ -8,7 +8,7 @@ cover: './coffee_plant.jpeg'
 heroStyle: 'fullwidth'
 ---
 
-***Origin and translation of the word from the Arabian into various languages—Views of many writers***
+***Origin and translation of the word from the Arabian into various languages—Views of many writers.***
 
 THE history of the word coffee involves several phonetic difficulties. The European languages got the
 name of the beverage about 1600 from the original Arabic ***qahwah***, not directly, but through its

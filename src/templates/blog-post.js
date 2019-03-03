@@ -30,7 +30,7 @@ class BlogPostTemplate extends React.Component {
                    {post.frontmatter.heroStyle === 'fullwidth' ? 
 
                       <HeroFullWidth 
-                      heroImg= {post.frontmatter.cover.childImageSharp.fluid.src}
+                      heroImg= {post.frontmatter.cover.childImageSharp.fluid}
                       srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
@@ -41,7 +41,7 @@ class BlogPostTemplate extends React.Component {
                      :
 
                       <HeroSplitWidth 
-                      heroImg= {post.frontmatter.cover.childImageSharp.fluid.src}
+                      heroImg= {post.frontmatter.cover.childImageSharp.fluid}
                       srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
@@ -128,7 +128,7 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 160)
+      excerpt(pruneLength: 200)
       html
       frontmatter {
         title
@@ -139,8 +139,9 @@ export const pageQuery = graphql`
         order
         cover {
                 childImageSharp{
-                  fluid( maxWidth: 1400 ) {
+                  fluid( maxWidth: 1000, quality: 75 ) {
                     ...GatsbyImageSharpFluid
+                    presentationWidth
                   }
                 }
             }

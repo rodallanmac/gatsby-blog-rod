@@ -9,7 +9,7 @@ heroStyle: 'fullwidth'
 ---
 
 
-***Coffee in the Near East in the early centuries—Stories of its origin—Discovery by physicians and adoption by the Church—Its spread through Arabia, Persia and Turkey—Persecutions and intolerances—Early coffee manners and customs***
+***Coffee in the Near East in the early centuries—Stories of its origin—Discovery by physicians and adoption by the Church—Its spread through Arabia, Persia and Turkey—Persecutions and intolerances—Early coffee manners and customs.***
 
 
 
