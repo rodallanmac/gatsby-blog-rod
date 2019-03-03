@@ -19,7 +19,7 @@ class BlogIndex extends React.Component {
   }
 
   toggleMenu = () => { 
-    this.setState( { toggle: !this.state.toggle ? "fixed top-0 left-0  z-9999 fadeInUp " : ""} ) 
+    this.setState( { toggle: !this.state.toggle ? "fixed top-0 left-0 right-0 bottom-0 z-9999 fadeInUp " : ""} ) 
   }
 
 
@@ -37,38 +37,34 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
 
-        <div className="w-100">
-          
-            <div className={"pointer w-100 cf bg-black "} onClick={this.toggleMenu}>
-              <div className="mw6 center logo-font  animated fast slideInDown">
-                <div className="flex-column flex-hv-center vh-100 nt4">
-                  <img className="center w5 h5 tc" src={coffeeflask} alt='the coffee flask logo 1922'/> 
-                  <div className="f1 f-subheadline-ns fw6 tc red ph4" style={{ lineHeight: '1em' }}>All About Coffee</div>
+        <div className="w-100 relative">
+          <div className="w-100 vh-100 fixed top-0 left-0 overflow-hidden">
+              <div className={"fl pointer w-100 w-50-ns vh-100 cf bg-black "} onClick={this.toggleMenu}>
+                <div className="mw6 center logo-font  animated fast slideInDown">
+                  <div className="flex-column flex-hv-center vh-100 nt4">
+                    <img className="center w5 h5 tc" src={coffeeflask} alt='the coffee flask logo 1922'/> 
+                    <div className="f1 f-subheadline-ns fw6 tc red ph4" style={{ lineHeight: '1em' }}>All About Coffee</div>
+                  </div>
                 </div>
+              </div>
+          
+              <div id="contents" className={"fl bg-white w-100 w-50-ns animated faster ph4 " + this.state.toggle} >
+                <div className="measure overflow-y-scroll">
+                      {posts.map(({ node }) => {
+                        const title = node.frontmatter.title || node.fields.slug
+                        return (
+                          <div key={node.fields.slug}>
+                            <h6 className="fw4 lh-copy dark-red mb1 ttu tracked">{node.frontmatter.category}</h6>
+                            <h3 className="f4 mv0 pb2 pr3"><Link className="link dim black" to={node.fields.slug}>{title}</Link></h3>
+                            <p className="f6 fw4 lh-copy dar-gray mv0 pb4 tracked-sm">{node.excerpt.replace(/\..*$/i, '.')}</p>
+                          </div>
+                        )
+                      })}
+                  </div>  
+                  <Bio />
               </div>
             </div>
 
-
-   
-
-
-          
-            <div id="contents" className={"bg-white w-100 animated faster ph4 " + this.state.toggle} >
-               <div className="measure">
-                    {posts.map(({ node }) => {
-                      const title = node.frontmatter.title || node.fields.slug
-                      return (
-                        <div key={node.fields.slug}>
-                          <h6 className="fw4 lh-copy dark-red mb1 ttu tracked">{node.frontmatter.category}</h6>
-                          <h3 className="f4 mv0 pb2 pr3"><Link className="link dim black" to={node.fields.slug}>{title}</Link></h3>
-                          <p className="f6 fw4 lh-copy dar-gray mv0 pb4 tracked-sm">{node.excerpt.replace(/\..*$/i, '.')}</p>
-                        </div>
-                      )
-                    })}
-                </div>  
-            </div>
-
-            <Bio />
         </div>
 
       </Layout>

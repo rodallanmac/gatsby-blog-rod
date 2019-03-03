@@ -41,7 +41,7 @@ class HeroSplitWidth extends React.Component {
                     <div className="w-100 cf">
 
                         <div className="fl w-100 w-100-m w-50-l vh-60 vh-40-m vh-100-l flex items-center ph0 ph4-ns ">
-                            <article>
+                            <article className="">
                                 <h6  className="fw6 black tracked-mega mb0 ttu">{category}</h6>
                                 <h1 className="f3 f2-m f1-l black fw6 mt2 mb3 lh-solid">{title}</h1>
                                 <h5  className="fw4 black tracked mb0">{newexcerpt}</h5>
