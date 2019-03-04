@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
         />
 
         <div className="w-100 relative">
-          <div className="w-100 vh-100 fixed top-0 left-0 overflow-hidden">
+          <div className="w-100 vh-100">
               <div className={"fl pointer w-100 w-50-ns vh-100 cf bg-black "} onClick={this.toggleMenu}>
                 <div className="mw6 center logo-font  animated fast slideInDown">
                   <div className="flex-column flex-hv-center vh-100 nt4">
@@ -48,8 +48,8 @@ class BlogIndex extends React.Component {
                 </div>
               </div>
           
-              <div id="contents" className={"fl bg-white w-100 w-50-ns animated faster ph4 " + this.state.toggle} >
-                <div className="measure overflow-y-scroll">
+              <div id="contents" className={"fl bg-white w-100 w-50-ns vh-100 overflow-y-scroll overflow-x-hidden overflow-scroll momentum-scroll animated faster ph4 " + this.state.toggle} >
+                <div className="measure">
                       {posts.map(({ node }) => {
                         const title = node.frontmatter.title || node.fields.slug
                         return (
