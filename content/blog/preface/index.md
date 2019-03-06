@@ -2,6 +2,7 @@
 title: Preface
 date: "1929-06-17"
 category: 'preface'
+published: true
 imgLink: 'https://www.pexels.com/@conojeghuo'
 imgAuthor: 'Clem Onojeghuo: London, UK'
 order: '2'

@@ -46,7 +46,7 @@ class HeroFullWidth extends React.Component {
                     
                     <div className="absolute z-4 top-0 left-0 z-3 pt5 pt6-m pt7-l w-100">
                         <article>
-                            <h6  className="fw6 white tracked-mega mb0 ttu text-shadow">{category}</h6>
+                            <h6  className="fw6 white tracked-mega mb0 ttu text-shadow"><div className="square-0-5 bg-gold mr2 dib "></div> {category}</h6>
                             <h1 className="f3 f2-m f1-l white fw6 mt2 mb3 lh-solid text-shadow">{title}</h1>
                         </article>
                     </div> 

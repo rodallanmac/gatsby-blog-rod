@@ -1,5 +1,37 @@
+:root {
+    --theme-100: rgb(0,4,25);
+    --theme-75: rgb(0,20,45);
+    --theme-50: rgb(0,50,140);
+    --theme-25: rgb(0,107,253);
+    --theme-0: rgb(245,250,255);
+
+    --theme-0-10: rgba(245,250,255,.8);
+    --theme-0-20: rgba(245,250,255,.6);
+    --theme-0-30: rgba(245,250,255,.4);
+    --theme-0-40: rgba(245,250,255,.3);
+  }
+  
+
 .bg-delicate {
 background: #D3CCE3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom,  rgb(234, 231, 240), rgb(255, 255, 255) );  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom,rgb(234, 231, 240), rgb(255, 255, 255) ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.theme-100 {  color: var(--theme-100); }
+.bg-theme-100 {  background-color: var(--theme-100); }
+.theme-75 { color: var(--theme-75); }
+.bg-theme-75 { background-color: var(--theme-75); }
+.theme-50 { color: var(--theme-50); }
+.bg-theme-50 { background-color: var(--theme-50); }
+.theme-25 { color: var(--theme-25); }
+.bg-theme-25 { background-color: var(--theme-25); }
+.theme-0 { color: var(--theme-0); }
+.bg-theme-0 { background-color: var(--theme-0); }
+
+
+.theme-0-10 { color: var(--theme-0-10); }
+.theme-0-20 { color: var(--theme-0-20); }
+.theme-0-30 { color: var(--theme-0-30); }
+.theme-0-40 { color: var(--theme-0-40); }
+

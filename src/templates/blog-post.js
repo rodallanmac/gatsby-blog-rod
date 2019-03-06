@@ -139,7 +139,7 @@ export const pageQuery = graphql`
         order
         cover {
                 childImageSharp{
-                  fluid( maxWidth: 1000, quality: 75 ) {
+                  fluid( maxWidth: 1400, quality: 75 ) {
                     ...GatsbyImageSharpFluid
                     presentationWidth
                   }

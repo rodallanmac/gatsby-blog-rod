@@ -1,11 +1,13 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const _ = require("lodash")
 
 exports.createPages = ({ graphql, actions }) => {
 
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const categoryTemplate = path.resolve("./src/templates/category.js")
   return graphql(
     `
       {
@@ -20,6 +22,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                category
               }
             }
           }
@@ -28,7 +31,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
   ).then(result => {
     if (result.errors) {
-      throw result.errors
+      throw Promise.reject(result.errors)
     }
 
     // Create blog posts pages.
@@ -37,7 +40,6 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === 0 ? null : posts[index - 1].node
       const next = index === (posts.length - 1) ? null : posts[index + 1].node
-
       createPage({
         path: post.node.fields.slug,
         component: blogPost,
@@ -48,6 +50,28 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
+
+    // Category pages:
+    let category = []
+    // Iterate through each post, putting all found tags into `tags`
+    _.each(posts, edge => {
+      if (_.get(edge, "node.frontmatter.category")) {
+        category = category.concat(edge.node.frontmatter.category)
+      }
+    })
+    // Eliminate duplicate tags
+    category = _.uniq(category)
+    // Make tag pages
+    category.forEach(category => {
+      createPage({
+        path: `/category/${_.kebabCase(category)}/`,
+        component: categoryTemplate,
+        context: {
+          category,
+        },
+      })
+    })
+
   })
 }
 

@@ -1,6 +1,7 @@
 ---
 title: Dealing with the etymology of coffee
 category: 'chapter 1'
+published: true
 imgAuthor: 'Christian Joudrey: Kauai Coffee Company, Kalaheo, United States'
 imgLink: 'https://unsplash.com/photos/aO_jMXTduUE'
 order: '5'

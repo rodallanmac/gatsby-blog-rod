@@ -1,15 +1,17 @@
 ---
 title: A Coffee Thesaurus
 category: 'thesaurus'
+published: true
 img: 'https://images.unsplash.com/photo-1518800383600-44551b3c739c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
-imgAuthor: 'Gerson Cifuentes: Coffee, Tajumulco, Guatemala'
-imgLink: 'https://unsplash.com/photos/W1VqcpcnSHk'
+imgAuthor: 'Coffee Table: Ernst Ludwig Kirchner, 1923/24'
+imgLink: 'https://artsandculture.google.com/asset/coffee-table/lgGtIky7KjgaXQ'
 order: '4'
-cover: './coffee-branch-berry.jpeg'
+cover: './kirchner-coffee.jpg'
 ---
 
 
 ***Encomiums and descriptive phrases applied to the plant, the berry, and the beverage.***
+
 
 ####The Plant####
 
@@ -20,6 +22,12 @@ The gift of Heaven
 The plant with the jessamine-like flowers  
 The most exquisite perfume of Araby the blest  
 Given to the human race by the gift of the Gods  
+
+[[image]]
+| ![alt text](./plate2-coffee leves-flower-fruit.jpg "COFFEE ARABICA; LEAVES, FLOWERS AND FRUIT")
+[[caption]]
+| COFFEE ARABICA; LEAVES, FLOWERS AND FRUIT – Painted from nature by M.E. Eaton—Detail sketches show anther, pistil, and section of corolla
+
 
 ####The Berry####
 

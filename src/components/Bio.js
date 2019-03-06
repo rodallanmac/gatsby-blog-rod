@@ -10,22 +10,22 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div className="w-100 pv4 cf">
-            <div className="mw7 center ph4">
-              <section className="flex-m flex-l items-center pv3">
-                <Image className="br-100 ba b--white bw1 shadow-5"
+          <div className="w-100 pa4 bg-theme-75" >
+            <div className="mw8 center ph4-ns">
+              <div className="flex-m flex-l items-center pv3">
+                <Image className="br-100  shadow-5 mr4"
                   fixed={data.avatar.childImageSharp.fixed}
                   alt={author}
                   style={{minWidth: '80px'}}
                 />
-                <p className="avenir fw3 f6 measure pl3-ns lh-copy">
-                  <strong>{author}</strong> who lives and works in Africa building useful things.
+                <p className="avenir theme-0-30 w-70 fw3 f6  pl3-ns lh-copy tracked-sm">
+                  <strong>{author}</strong> lives and works at Swallows Rest, in the hills outside the sea-side city of Durban, South Africa on the east coast of Africa. Rod likes to build usefull things.
                   {` `}
-                  <a className="link green" href={`https://twitter.com/${social.twitter}`}>
+                  <a className="link theme-25" href={`https://twitter.com/${social.twitter}`}>
                     You should follow him on Twitter
                   </a>
                 </p>
-              </section>
+              </div>
               </div>
           </div>
         )

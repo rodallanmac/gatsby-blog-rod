@@ -2,6 +2,7 @@
 title: Forward
 date: "1929-06-17"
 category: 'forward'
+published: true
 imgAuthor: 'Karl Fredrickson'
 imgLink: 'https://unsplash.com/photos/TYIzeCiZ_60'
 order: '3'
@@ -13,8 +14,6 @@ cover: './coffee-pour-over.jpeg'
 CIVILIZATION in its onward march has produced only three important non-alcoholic beverages—the extract of the tea plant, the extract of the cocoa bean, and the extract of the coffee bean.
 
 Leaves and beans—these are the vegetable sources of the world's favorite non-alcoholic table-beverages. Of the two, the tea leaves lead in total amount consumed; the coffee beans are second; and the cocoa beans are a distant third, although advancing steadily. But in international commerce the coffee beans occupy a far more important position than either of the others, being imported into non-producing countries to twice the extent of the tea leaves. All three enjoy a world-wide consumption, although not to the same extent in every nation; but where either the coffee bean or the tea leaf has established itself in a given country, the other gets comparatively little attention, and usually has great difficulty in making any advance. The cocoa bean, on the other hand, has not risen to the position of popular favorite in any important consuming country, and so has not aroused the serious opposition of its two rivals.
-
-![alt text](./coffee-pour-over.jpeg "Logo Title Text 1")
 
 Coffee is universal in its appeal. All nations do it homage. It has become recognized as a human necessity. It is no longer a luxury or an indulgence; it is a corollary of human energy and human efficiency. People love coffee because of its two-fold effect—the pleasurable sensation and the increased efficiency it produces.
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `All about Coffee`,
-    author: `Design and transcription by Rod MacLeod`,
+    author: `Rod`,
     description: `A starter book site powered by Gatsby JS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
@@ -30,12 +30,28 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 900,
-              linkImagesToOriginal: false,
-              withWebp: true,
-            },
+              resolve: "gatsby-remark-custom-blocks",
+              options: {
+                blocks: {
+                  image: {
+                    classes: "image",
+                  },
+                  caption: {
+                    classes: "caption",
+                  },
+                  indented: {
+                    classes: "indented",
+                  },
+                },
+              },
+          },
+          {
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 1400,
+                linkImagesToOriginal: false,
+                withWebp: true,
+              },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,

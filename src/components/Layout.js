@@ -2,8 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import Nav from './Nav'
-
+import Nav from '../components/Nav'
 import Footer from "./Footer.js"
 require("prismjs/plugins/line-numbers/prism-line-numbers.css")
 
@@ -22,8 +21,8 @@ const Layout = ({ children }) => (
       }
     `}
     render = {data => (
-      <div>
-
+      <div className="z-2">
+      <div className="w-100 cf">
         <Helmet
             title={data.site.siteMetadata.title}
             meta={[
@@ -35,15 +34,17 @@ const Layout = ({ children }) => (
         </Helmet>
 
         <Nav siteTitle={data.site.siteMetadata.title} />
-
-
+       
         <div>
           {children}
         </div>
 
-        <Footer/>
         
       </div>
+
+     <Footer/>
+     </div>
+
     )}
   />
 )

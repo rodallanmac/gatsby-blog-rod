@@ -1,6 +1,7 @@
 ---
 title: History of coffee propagation
 category: 'chapter 2'
+published: true
 imgAuthor: 'Rodrigo Flores: El Salvador'
 imgLink: 'https://unsplash.com/photos/HbA1UngeCp8'
 order: '6'
@@ -107,17 +108,15 @@ the coffee trees of the Antilles. The first harvest was gathered
 in 1726.
 
 De Clieu himself describes his arrival as follows:
->Arriving at home, my first care was to set out my plant with great attention in the part of my garden most
-favorable to its growth. Although keeping it in view, I feared many times that it would be taken from me; and I was at last obliged to surround it with thorn bushes and to establish a guard about it until it arrived at maturity ... this precious plant which had become still more dear to me for the dangers it had run and the cares it had cost me. Thus the little stranger thrived in a distant land, guarded day and night by faithful slaves. So tiny a plant to produce in the end all the rich estates of the West India islands and the regions bordering on the Gulf of Mexico! What luxuries, what future comforts and delights, resulted from this one small talent confided to the care of a man of rare vision and fine intellectual sympathy, fired by the spirit of real love for his fellows! There is no instance in the history of the French people of a good deed done by stealth being of greater service to humanity.
+
+[[indented]]
+| Arriving at home, my first care was to set out my plant with great attention in the part of my garden most favorable to its growth. Although keeping it in view, I feared many times that it would be taken from me; and I was at last obliged to surround it with thorn bushes and to establish a guard about it until it arrived at maturity ... this precious plant which had become still more dear to me for the dangers it had run and the cares it had cost me. Thus the little stranger thrived in a distant land, guarded day and night by faithful slaves. So tiny a plant to produce in the end all the rich estates of the West India islands and the regions bordering on the Gulf of Mexico! What luxuries, what future comforts and delights, resulted from this one small talent confided to the care of a man of rare vision and fine intellectual sympathy, fired by the spirit of real love for his fellows! There is no instance in the history of the French people of a good deed done by stealth being of greater service to humanity.
 
 De Clieu thus describes the events that followed fast upon the introduction of coffee into Martinique, with
 particular reference to the earthquake of 1727:
 
->Success exceeded my hopes. I gathered about two pounds of seed which I distributed among all those
-whom I thought most capable of giving the plants the care necessary to their prosperity.
-The first harvest was very abundant; with the second it was possible to extend the cultivation
-prodigiously, but what favored multiplication, most singularly, was the fact that two years afterward all
-the cocoa trees of the country, which were the resource and occupation of the people, were uprooted and totally destroyed by horrible tempests accompanied by an inundation which submerged all the land where these trees were planted, land which was at once made into coffee plantations by the natives. These did marvelously and enabled us to send plants to Santo Domingo, Guadeloupe, and other adjacent islands, where since that time they have been cultivated with the greatest success.
+[[indented]]
+| Success exceeded my hopes. I gathered about two pounds of seed which I distributed among all those whom I thought most capable of giving the plants the care necessary to their prosperity. The first harvest was very abundant; with the second it was possible to extend the cultivation prodigiously, but what favored multiplication, most singularly, was the fact that two years afterward all the cocoa trees of the country, which were the resource and occupation of the people, were uprooted and totally destroyed by horrible tempests accompanied by an inundation which submerged all the land where these trees were planted, land which was at once made into coffee plantations by the natives. These did marvelously and enabled us to send plants to Santo Domingo, Guadeloupe, and other adjacent islands, where since that time they have been cultivated with the greatest success.
 
 By 1777 there were 18,791,680 coffee trees in Martinique.
 
@@ -133,27 +132,32 @@ generally, are indebted for the cultivation of coffee."
 Reports to the king in 1752 and 1759 recall his having carried the first coffee plant to Martinique, and that
 he had ever been distinguished for his zeal and disinterestedness. In the Mercure de France, December, 1774, was the following death notice:
 
-Gabriel d'Erchigny de Clieu, former Ship's Captain and Honorary Commander of the Royal and
+[[indented]]
+| Gabriel d'Erchigny de Clieu, former Ship's Captain and Honorary Commander of the Royal and
 Military Order of Saint Louis, died in Paris on the 30th of November in the 88th year of his age.
+
 A notice of his death appeared also in the Gazette de France for December 5, 1774, a rare honor in both
 cases; and it has been said that at this time his praise was again on every lip.
-One French historian, Sidney Daney,[20] records that de Clieu died in poverty at St. Pierre at the age of
+One French historian, Sidney Daney,[^20] records that de Clieu died in poverty at St. Pierre at the age of
 97; but this must be an error, although it does not anywhere appear that at his death he was possessed of
 much, if any, means. Daney says:
 
-This generous man received as his sole recompense for a noble deed the satisfaction of seeing this
-plant for whose preservation he had shown such devotion, prosper throughout the Antilles. The illustrious
-de Clieu is among those to whom Martinique owes a brilliant reparation.
+[[indented]]
+| This generous man received as his sole recompense for a noble deed the satisfaction of seeing this
+| plant for whose preservation he had shown such devotion, prosper throughout the Antilles. The illustrious
+| de Clieu is among those to whom Martinique owes a brilliant reparation.
+
 Daney tells also that in 1804 there was a movement in Martinique to erect a monument upon the spot
 where de Clieu planted his first coffee plant, but that the undertaking came to naught.
 Pardon, in his La Martinique says:
 
-Honor to this brave man! He has deserved it from the people of two hemispheres. His name is worthy
-of a place beside that of Parmentier who carried to France the potato of Canada. These two men have
-rendered immense service to humanity, and their memory should never be forgotten—yet alas! Are they
-even remembered?
+[[indented]]
+| Honor to this brave man! He has deserved it from the people of two hemispheres. His name is worthy
+| of a place beside that of Parmentier who carried to France the potato of Canada. These two men have
+| rendered immense service to humanity, and their memory should never be forgotten—yet alas! Are they
+| even remembered?
 
-Tussac, in his Flora de las Antillas, writing of de Clieu, says, "Though no monument be erected to this
+Tussac, in his _Flora de las Antillas_, writing of de Clieu, says, "Though no monument be erected to this
 beneficent traveler, yet his name should remain engraved in the heart of every colonist."
 In 1774 the Année Littéraire published a long poem in de Clieu's honor. In the feuilleton of the Gazette de
 France, April 12, 1816, we read that M. Donns, a wealthy Hollander, and a coffee connoisseur, sought to
@@ -161,22 +165,29 @@ honor de Clieu by having painted upon a porcelain service all the details of his
 
 That singer of navigation, Esménard, has pictured de Clieu's devotion in the following lines:
 
-*Forget not how de Clieu with his light vessel's sail,
-Brought distant Moka's gift—that timid plant and frail.
-The waves fell suddenly, young zephyrs breathed no more,
-Beneath fierce Cancer's fires behold the fountain store,
-Exhausted, fails; while now inexorable need
-Makes her unpitying law—with measured dole obeyed.*
+[[indented]]
+| Forget not how de Clieu with his light vessel's sail,  
+| Brought distant Moka's gift—that timid plant and frail.  
+| The waves fell suddenly, young zephyrs breathed no more,  
+| Beneath fierce Cancer's fires behold the fountain store,  
+| Exhausted, fails; while now inexorable need  
+| Makes her unpitying law—with measured dole obeyed.  
 
-*Now each soul fears to prove Tantalus torment first.
-De Clieu alone defies: While still that fatal thirst,
-Fierce, stifling, day by day his noble strength devours,
-And still a heaven of brass inflames the burning hours.*
+<br/>
 
-*With that refreshing draught his life he will not cheer;
-But drop by drop revives the plant he holds more dear.
-Already as in dreams, he sees great branches grow,
-One look at his dear plant assuages all his woe.*
+[[indented]]
+| Now each soul fears to prove Tantalus torment first.  
+| De Clieu alone defies: While still that fatal thirst,  
+| Fierce, stifling, day by day his noble strength devours,  
+| And still a heaven of brass inflames the burning hours.  
+
+<br/>
+
+[[indented]]
+| With that refreshing draught his life he will not cheer;  
+| But drop by drop revives the plant he holds more dear.  
+| Already as in dreams, he sees great branches grow,  
+| One look at his dear plant assuages all his woe.  
 
 The only memorial to de Clieu in Martinique is the botanical garden at Fort de France, which was opened
 in 1918 and dedicated to de Clieu, "whose memory has been too long left in oblivion.[21]"
@@ -204,5 +215,9 @@ States, but without success. It is believed, however, that the topographic and c
 [^18]: 18: Franklin, Alfred. La Vie Privée d'Autrefois. Paris, 1893.
 
 [^19]: 19: Michaud, I.F. and L.G. Biographie Universelle. Paris.
+
+[^20]: 20: Daney, Sidney. Histoire de la Martinique. Fort Royal, 1846.
+
+[^21]: 21: Inauguration du Jardin Desclicux. Fort de France, 1918.
 
 

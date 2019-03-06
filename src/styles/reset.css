@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,400,600|Merriweather:700');
 :root {
-  --a-link: rgb(0, 180, 135); 
+  --a-link:rgb(0,107,253);
 }
 
 html {  font-family: -apple-system, BlinkMacSystemFont,
@@ -18,7 +18,7 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
 
 
 /* unvisited link */
-  a:link { outline: none; outline: 0; border: 0; text-decoration: none;}
+  a:link { outline: none; outline: 0; border: 0; text-decoration: none; }
   /* visited link */
   a:visited { outline: none; outline: 0; border: 0;}
   /* mouse over link */
@@ -116,7 +116,7 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   article p, article li { 
     margin-top: 1.5em; 
     margin-bottom: 1em;
-    font-size: 1.01rem; line-height: 1.7rem;
+    font-size: 1.1rem; line-height: 1.75rem;
     font-family: 'Noto Serif SC'; 
     color: rgb(30,30,30); 
     letter-spacing: .01em;
@@ -150,6 +150,30 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
     line-height: 1.7em;
   }
 
+  /* CUSTOM BLOCKS FOR MARKDOWN */
+
+  .custom-block.image > .custom-block-body > p {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2em 0;
+  }
+  .custom-block.caption > .custom-block-body > p {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    font-family : 'avenir';
+    
+  }
+  .custom-block.indented > .custom-block-body > p  {
+    font-style: italic;
+    font-size: 1.07rem;
+    line-height: 2rem;
+    max-width:600px; 
+    margin:0 auto; 
+    border-left: 3px solid transparent; 
+    padding-left: 2em; 
+  }
+
 
   @media screen and (max-width: 30em) {
     article blockquote {
@@ -162,16 +186,28 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   }
 
 
+/**
+* RODS  CSS AND MEDIA QUERIES
+\\\||||_____                  
+*/   
 
-    /**
-    * TACHYON RESETS FOR CSS AND MEDIA QUERIES
-    *      ________            ______
-    *      ___  __/_____ _________  /______  ______________________
-    *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
-    *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
-    *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
-    *                                 /____/
-    */ 
+.offscreenright {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  visibility: hidden;
+}
+
+
+
+/**
+* TACHYON RESETS FOR CSS AND MEDIA QUERIES
+*      ________            ______
+*      ___  __/_____ _________  /______  ______________________
+*      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+*      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+*      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+*                                 /____/
+*/ 
 
 
 /* FLEX STYLEING FOR ARTICLES  */
@@ -215,7 +251,9 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
 .left-6 { left: 6rem; }
 
 /* SQUARE WIDTH HEIGHT */
+.square-0-5 { width: .5rem; height: .5rem; }
 .square-1 { width: 1rem; height: 1rem; }
+.square-1-2 { width: 1.2rem; height: 1.2rem; }
 .square-1-5 { width: 1.5rem; height: 1.5rem; }
 .square-2 { width: 2rem; height: 2rem; }
 
