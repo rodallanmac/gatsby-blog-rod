@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-import coffeeflask from "../../content/assets/coffeeflaskblack.svg"
+import coffeeflask from "../../content/assets/coffeeflaskblue.svg"
 import coffeeCover from "../../content/assets/coffee-cover.jpeg"
 import autoBind from 'auto-bind'
 

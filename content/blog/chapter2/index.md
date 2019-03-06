@@ -2,7 +2,7 @@
 title: History of coffee propagation
 category: 'chapter 2'
 published: true
-imgAuthor: 'Rodrigo Flores: El Salvador'
+imgAuthor: 'Photo: Rodrigo Flores: El Salvador'
 imgLink: 'https://unsplash.com/photos/HbA1UngeCp8'
 order: '6'
 cover: ./coffee_tree.jpeg

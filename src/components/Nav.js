@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import coffeeflask from "../../content/assets/coffeeflask.svg"
 import menudot from "../../content/assets/menu_dot.svg"
 import Pin from "./pin"
-
+import Img from "gatsby-image"
 
 
 export default () => {
@@ -18,7 +18,7 @@ export default () => {
     allMarkdownRemark(sort: { fields: [frontmatter___order], order: ASC }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 100)
           fields {
             slug
           }
@@ -27,6 +27,14 @@ export default () => {
             title
             category
             order
+            cover {
+                childImageSharp{
+                  fluid( maxWidth: 1400, quality: 75 ) {
+                    ...GatsbyImageSharpFluid
+                    presentationWidth
+                  }
+                }
+            }
           }
         }
       }
@@ -49,16 +57,16 @@ export default () => {
       <Pin>
           <div> 
             <div className="w-100 bb b--black-10 shadow-5">
-              <div className="ph4 pv1">
+              <div className="ph3 ph4-ns pv1">
                 <div className="mw9 center">
                     <nav className="flex justify-between">
-                      <Link className="logo-font f5 f4-ns link dim black b dib mr3 flex items-center" to="/" >
+                      <Link className="logo-font f5 f4-ns link dim theme-100 b dib mr3 flex items-center" to="/" >
                         <img className="w3 h3  mr3" src={coffeeflask} alt='the coffee flask logo 1922'/>
                         {siteTitle}
                       </Link>
-                      <div className="dn db-ns pv2">
+                      <div className="pa2" onClick={toggle}>
                         <div className="flex items-center pv2">
-                          <div className="link dim gray f6 f5-ns dib " onClick={toggle} > <img className="w2 h2 " src={menudot} alt='menu'/> </div>
+                          <div className="link dim gray f6 f5-ns dib " > <img className="w2 h2 " src={menudot} alt='menu'/> </div>
                         </div>
                       </div>
                     </nav>
@@ -70,20 +78,29 @@ export default () => {
 
     
       <div id="contents" className={hidden} >
-        <div className="mb6">
-            <div className="measure pt4 pb6 ">
-                {posts.map(({ node }) => {
-                  const title = node.frontmatter.title || node.fields.slug
-                  return (
-                    <div key={node.fields.slug}>
-                      <Link className="link dim black" to={node.fields.slug}>
-                        <h6 className="fw4 lh-copy dark-red mb1 ttu tracked">{node.frontmatter.category}</h6>
-                        <h3 className="f4 mv0 pb2 pr3">{title}</h3>
-                        <p className="f6 fw4 lh-copy dar-gray mv0 pb4 tracked-sm">{node.excerpt.replace(/\..*$/i, '.')}</p>
-                      </Link>
-                    </div>
-                  )
-                })}
+        <div className="w-100 pb6 cf mb6">
+            <div className="w-100 mw9 center pt4 pb6 ">
+               <div className="flex flex-wrap">
+                    {posts.map(({ node }) => {
+                      const title = node.frontmatter.title || node.fields.slug
+                      return (
+                        <div className="w-100 w-50-m w-25-l pr3 pb4" key={node.fields.slug}>
+                          <Link className="link dim black" to={node.fields.slug}>
+                              <div className="flex flex-column">
+                                  <div className="aspect-ratio aspect-ratio--16x9 mb0">
+                                    <Img className="aspect-ratio aspect-ratio--16x9" fluid={node.frontmatter.cover.childImageSharp.fluid} />
+                                  </div>
+                                  <div className="mt0">
+                                    <h6 className="fw4 lh-copy dark-red mb1 ttu tracked">{node.frontmatter.category}</h6>
+                                    <h3 className="f4 mv0 pb2 pr3">{title}</h3>
+                                    <p className="f6 fw4 lh-copy gray mv0 pb4 tracked-sm pr3">{node.excerpt.replace(/\..*$/i, '.')}</p>
+                                  </div>
+                              </div>
+                          </Link>
+                        </div>
+                      )
+                    })}
+              </div>
             </div>  
           </div>
       </div>

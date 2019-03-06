@@ -3,7 +3,7 @@ title: Forward
 date: "1929-06-17"
 category: 'forward'
 published: true
-imgAuthor: 'Karl Fredrickson'
+imgAuthor: 'Photo: Karl Fredrickson'
 imgLink: 'https://unsplash.com/photos/TYIzeCiZ_60'
 order: '3'
 cover: './coffee-pour-over.jpeg'

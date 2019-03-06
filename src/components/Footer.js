@@ -1,25 +1,35 @@
 import React from "react"
-
+import whopoo from "../../content/assets/whopo-studios.svg"
 
 export default () => (
 
 <footer className="pv4 pv5-l fw2 theme-0-30 bg-theme-100" >
 
   <div className="mb4-l cf mw8 center ph4">
-    <div className="fl w-100 pv0 f6 fw6 ttu theme-0 tracked-mega mb4">Studios</div>
+
+    <div className="fl w-100 pv0 ttu theme-0 tracked-mega">
+      <div className="flex flex-column mb4">
+          <div className="flex items-end mb2">
+            <img src={whopoo} className="square-2 dib mr2" alt="whopoo studio logo" />
+            <div className="f6 f5-ns fw6 theme-25 pr1">woopoo </div>
+          </div>
+          <div className="f7 theme-0-10">digital studios</div> 
+      </div>
+    </div>
+
     <section className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns tracked">
       <h4 className="f5  fw2 theme-0-20">Durban</h4>
       <span className="f7 f6-l db">Swallows Rest</span>
       <span className="f7 f6-l db">Durban, KZN 4001 </span>
-      <a className="f6 db fw6 pv3 theme-50 dim" title="Call SF" href="tel:+12075555555">
-        +1 207-555-5555
+      <a className="f6 db fw6 pv3 theme-25 dim" title="Call SF" href="tel:+12075555555">
+        +27 82-782-3150
       </a>
     </section>
     <section className="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns tracked">
       <h4 className="f5  fw2 tracked theme-0-20">Cape Town</h4>
       <span className="f7 f6-l db ">1 Eerste Laan</span>
       <span className="f7 f6-l di "> Stellenbosch, WC 90048</span>
-      <a href="tel:+13235555555" className="f6 db fw6 pv3 dim theme-50" title="Call the LA office.">
+      <a href="tel:+13235555555" className="f6 db fw6 pv3 dim theme-25" title="Call the LA office.">
         +1 323-555-5555
       </a>
     </section>
@@ -27,29 +37,29 @@ export default () => (
       <h4 className="f5  fw2 tracked theme-0-20">Vancouver</h4>
       <span className="f7 f6-l db ">Musquem</span>
       <span className="f7 f6-l ">British Columbia, Canada</span>
-      <a href="tel:+5555555555" className="dim f6 db fw6 pv3 theme-50" title="Call the London office">+44 0 5555-5555</a>
+      <a href="tel:+5555555555" className="dim f6 db fw6 pv3 theme-25" title="Call the London office">+44 0 5555-5555</a>
     </section>
     <section className="fl w-50 dib-ns w-auto-ns mb4 pl2 pl0-ns tracked">
       <h4 className="f5  fw2 tracked theme-0-20">Toronto</h4>
       <span className="f7 f6-l db ">St Lawrence</span>
       <span className="f7 f6-l">Ontario, Canada</span>
-      <a href="tel:+444444444444" className="f6 db dim fw6 pv3 theme-50" title="Call Tokyo Office">
+      <a href="tel:+444444444444" className="f6 db dim fw6 pv3 theme-25" title="Call Tokyo Office">
         +99 5555-5555
       </a>
     </section>
   </div>
 
-  <section className="cf mb5 bg-theme-75 pa4">
+  <section className="cf mb5 bg-theme-100 pl4">
      <div className="mv4 w-100 flex flex-wrap items-center justify-between mw8 center ph4-l">
         <div className="pr4">
           <p className="f4 mb2 f6 mt0 theme-0-40 tracked">
             Sign up for our newsletter.
           </p>
-          <input placeholder="Email Address" className="mw-100 w-100 w5-ns f5 input-reset ba b--black-100 pv3 ph4 border-box "/>
+          <input placeholder="Email Address" className="w-100 w5-ns f5 input-reset ba b--black-100 pv3 ph4 border-box "/>
           <input type="submit" className="input-reset w-100 w-auto-ns bg-theme-50 white f5 pv3  ph4 ba b--transparent bg-hover-mid-gray tracked"/>
         </div>
-        <a className="f3 tracked fw6 tl theme-50 dim dib pv3 mt3 mb0-l " href="mailto:hello@lightship.co.za" >
-          hello@studiodigital.com
+        <a className="f4 f3-ns tracked fw6 tl theme-50 dim dib pa3 mt3 mb0-l " href="mailto:hello@lightship.co.za" >
+          hello@woopoo.com
         </a>
     </div>
   </section>

@@ -49,6 +49,15 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
     color: var(--a-link);
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 { 
+    color: rgb(0,4,30); 
+  }
+
 
   /* FONT STYLEING FOR ARTICLES  */
   article { width: 100%; }
@@ -145,7 +154,6 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   article h6 { 
     margin-top: 2.2em; 
     margin-bottom:1em; 
-    color: rgb(40,40,40); 
     letter-spacing: .01em;
     line-height: 1.7em;
   }
@@ -250,13 +258,17 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
 .left-5 { left: 5rem; }
 .left-6 { left: 6rem; }
 
+
 /* SQUARE WIDTH HEIGHT */
 .square-0-5 { width: .5rem; height: .5rem; }
 .square-1 { width: 1rem; height: 1rem; }
 .square-1-2 { width: 1.2rem; height: 1.2rem; }
 .square-1-5 { width: 1.5rem; height: 1.5rem; }
 .square-2 { width: 2rem; height: 2rem; }
-
+.square-3 { width: 3rem; height: 3rem; }
+.square-4 { width: 4rem; height: 4rem; }
+.square-5 { width: 5rem; height: 5rem; }
+.square-10 { min-width: 10rem; min-height: 10rem; }
 
 /* VH_HEIGHT ADDITION */
 .vh-20 { height: 20vh; }

@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import coffeeflask from "../../content/assets/coffeeflask.svg"
-import photographer from "../../content/assets/user.svg"
 import Bio from "../components/Bio"
 import Scrollable from "../components/scroll"
 import HeroFullWidth from "../components/HeroFullWidth"
@@ -55,9 +54,9 @@ class BlogPostTemplate extends React.Component {
 
 
                        <div className="w-100 cf">
-                         <div id="imgCaption" className="f7 black-50 fr-ns ph4 pt3 flex flex-wrap items-center">
-                            <a className="link tracked-sm black-50 pr2 pointer avenir" href={post.frontmatter.imgLink} >
-                              <img className="pr1" src={photographer} alt="africa globe" width="13"/>  {post.frontmatter.imgAuthor}
+                         <div id="imgCaption" className="mw9 center f6  ph4 pt3 lh-copy">
+                            <a className="link tracked-sm theme-75 dim pr2 pointer avenir" href={post.frontmatter.imgLink} >
+                              {post.frontmatter.imgAuthor}
                             </a> 
                          </div>
                        </div>

@@ -12,21 +12,20 @@ function Bio() {
         return (
           <div className="w-100 pa4 bg-theme-75" >
             <div className="mw8 center ph4-ns">
-              <div className="flex-m flex-l items-center pv3">
-                <Image className="br-100  shadow-5 mr4"
+              <div className="w-100 tc flex-m flex-l items-center pv3">
+                <Image className="br-100  shadow-5 mr4 mb3"
                   fixed={data.avatar.childImageSharp.fixed}
                   alt={author}
                   style={{minWidth: '80px'}}
                 />
-                <p className="avenir theme-0-30 w-70 fw3 f6  pl3-ns lh-copy tracked-sm">
-                  <strong>{author}</strong> lives and works at Swallows Rest, in the hills outside the sea-side city of Durban, South Africa on the east coast of Africa. Rod likes to build usefull things.
-                  {` `}
-                  <a className="link theme-25" href={`https://twitter.com/${social.twitter}`}>
-                    You should follow him on Twitter
-                  </a>
-                </p>
+                  <div className="avenir theme-0-20  f6  fw4  pl3-ns lh-copy tracked-sm">
+                    {author} is creative and tech lead at <span className="theme-0-10 tracked-mega ttu fw6"> WOOPOO Digital Studios</span>, situated in the hills just outside the sea-side city of Durban, South Africa on the east coast of Africa. Rod likes to build usefull things.<br/>
+                    <a className="link theme-25 dib" href={`https://twitter.com/${social.twitter}`}>
+                      You should follow him on Twitter
+                    </a>
+                  </div>
               </div>
-              </div>
+            </div>
           </div>
         )
       }}

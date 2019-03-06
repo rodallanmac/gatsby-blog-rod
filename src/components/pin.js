@@ -139,8 +139,8 @@ class Pin extends Component {
     }
 
     return (
-      <div className="pinwrapper bg-white" style={style2}>
-        <div className="bg-white" ref="containerDiv" style={style}>
+      <div className="pinwrapper " style={style2}>
+        <div className="" ref="containerDiv" style={style}>
             {children}
         </div>
       </div>
