@@ -35,7 +35,7 @@ class BlogIndex extends React.Component {
           <div className="w-100 vh-100">
 
               <div className={"fl pointer w-100 vh-100 cf cover bg-center "} style={{backgroundImage: `url(${coffeeCover})`}}>
-                <div className="w-100 vh-100 bg-theme-100 o-90 ">
+                <div className="w-100 vh-100 bg-theme-75 o-90 ">
                   <div className="mw6 center logo-font animated fast slideInDown">
                     <Link className="" to="/introduction">
                       <div className="flex-column flex-hv-center vh-100">
