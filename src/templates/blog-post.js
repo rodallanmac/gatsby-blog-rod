@@ -54,7 +54,7 @@ class BlogPostTemplate extends React.Component {
 
 
                        <div className="w-100 cf">
-                         <div id="imgCaption" className="mw9 center f6  ph4 pt3 lh-copy">
+                         <div id="imgCaption" className="mw9 center f6  ph4 pt3 ">
                             <a className="link tracked-sm theme-75 dim pr2 pointer avenir" href={post.frontmatter.imgLink} >
                               {post.frontmatter.imgAuthor}
                             </a> 
