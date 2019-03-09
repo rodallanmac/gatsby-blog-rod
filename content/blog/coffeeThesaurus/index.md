@@ -5,7 +5,7 @@ published: true
 img: 'https://images.unsplash.com/photo-1518800383600-44551b3c739c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
 imgAuthor: 'Painting: Coffee Table: Ernst Ludwig Kirchner, 1923/24. https://artsandculture.google.com'
 imgLink: 'https://artsandculture.google.com/asset/coffee-table/lgGtIky7KjgaXQ'
-order: '4'
+order: '03'
 cover: './kirchner-coffee.jpg'
 ---
 

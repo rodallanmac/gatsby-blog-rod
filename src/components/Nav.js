@@ -45,11 +45,11 @@ export default () => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
-  const [hidden, setState] = useState('fixed z-0 offscreenright');
 
-  function toggle() {
-    hidden ? setState('bg-white fixed z-5 w-100 vh-100 overflow-y-scroll overflow-x-hidden overflow-scroll momentum-scroll animated faster ph4 slideInRight') : setState('fixed z-0 offscreenright');
-  }
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  
+
 
   return (
     <div>
@@ -66,7 +66,7 @@ export default () => {
                       </Link>
                       <div className="pa2" onClick={toggle}>
                         <div className="flex items-center pv2">
-                          <div className="link dim gray f6 f5-ns dib " > <img className="w2 h2 " src={menudot} alt='menu'/> </div>
+                          <div className="link dim gray ph1 dib " > <img className="w2 h2 " src={menudot} alt='menu'/> </div>
                         </div>
                       </div>
                     </nav>
@@ -77,14 +77,14 @@ export default () => {
       </Pin>
 
     
-      <div id="contents" className={hidden} >
+      <div id="contents" className={isOpen ? 'bg-white fixed z-5 w-100 vh-100 overflow-y-scroll overflow-x-hidden overflow-scroll momentum-scroll animated faster ph4 slideInRight' : 'fixed z-0 offscreenright '} >
         <div className="w-100 pb6 cf mb6">
             <div className="w-100 mw9 center pt4 pb6 ">
                <div className="flex flex-wrap">
                     {posts.map(({ node }) => {
                       const title = node.frontmatter.title || node.fields.slug
                       return (
-                        <div className="w-100 w-50-m w-25-l pr3 pb4" key={node.fields.slug}>
+                        <div className="w-100 w-50-m w-25-l pr3 pb4" key={node.fields.slug} onMouseUp={toggle}>
                           <Link className="link dim black" to={node.fields.slug}>
                               <div className="flex flex-column">
                                   <div className="aspect-ratio aspect-ratio--16x9 mb0">

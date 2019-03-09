@@ -4,7 +4,7 @@ category: 'chapter 2'
 published: true
 imgAuthor: 'Photo: Rodrigo Flores: El Salvador'
 imgLink: 'https://unsplash.com/photos/HbA1UngeCp8'
-order: '6'
+order: '05'
 cover: ./coffee_tree.jpeg
 ---
 

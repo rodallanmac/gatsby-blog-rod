@@ -6,11 +6,11 @@ published: true
 cover: './food-beans-coffee-drink.jpg'
 imgAuthor: 'https://skitterphoto.com'
 imgLink: 'https://skitterphoto.com'
-order: '1'
+order: '00'
 heroStyle: 'fullwidth'
 ---
 
-##For the love of the berry.?
+##For the love of the berry?
 
 
 In old world terms you've just opened the cover of a 715 page A4 book, ***All about Coffee*, by William H.Ukers, M.A., 1922**. It is an exhaustive historical account on how the humble little coffee berry shaped  our imagination, created legends, demanded the attention of the religious, determined  politics, and expanded commercial empires – it literally delivers on the promise of 'All' in its title. If you love coffee enjoy the read. 

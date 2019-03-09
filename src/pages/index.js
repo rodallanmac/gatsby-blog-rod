@@ -27,12 +27,12 @@ class BlogIndex extends React.Component {
     return (
       <Layout>
         <SEO
-          title="All posts"
+          title="All about cover and the art of the long form story"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
 
         <div className="w-100 relative">
-          <div className="w-100 vh-100">
+          <div className="w-100 vh-100 nt5">
 
               <div className={"fl pointer w-100 vh-100 cf cover bg-center "} style={{backgroundImage: `url(${coffeeCover})`}}>
                 <div className="w-100 vh-100 bg-theme-75 o-90 ">
@@ -46,8 +46,6 @@ class BlogIndex extends React.Component {
                   </div>
                 </div>
               </div>
-
-
 
             </div>
         </div>

@@ -49,15 +49,7 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
     color: var(--a-link);
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 { 
-    color: rgb(0,4,30); 
-  }
-
+  
 
   /* FONT STYLEING FOR ARTICLES  */
   article { width: 100%; }
@@ -120,7 +112,7 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
   /* FONT FAMILY  */
   .logo-font { font-family: 'Merriweather', serif; }
 
-  h1,h2, h3 { font-family: 'Noto Serif SC'; letter-spacing: .02em;}
+   h1,h2,h3 { font-family: 'Noto Serif SC'; letter-spacing: .02em; color: rgb(0,4,30); }
 
   article p, article li { 
     margin-top: 1.5em; 
@@ -155,7 +147,6 @@ html {  font-family: -apple-system, BlinkMacSystemFont,
     margin-top: 2.2em; 
     margin-bottom:1em; 
     letter-spacing: .01em;
-    line-height: 1.7em;
   }
 
   /* CUSTOM BLOCKS FOR MARKDOWN */

@@ -4,7 +4,7 @@ category: 'chapter 3'
 published: true
 imgAuthor: 'Enjoying Coffee – French School. First half of the 18th Century. In this painting, an Ottoman lady drinking coffee and her servant are depicted in dresses in the fashion of those days. Rights: Suna and İnan Kıraç Foundation Collection. https://artsandculture.google.com '
 imgLink: 'https://artsandculture.google.com/asset/enjoying-coffee/mAGJXuxEdMIEWQ'
-order: '7'
+order: '06'
 cover: './turkish.jpg'
 heroStyle: 'fullwidth'
 ---

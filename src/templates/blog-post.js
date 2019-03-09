@@ -9,16 +9,14 @@ import HeroFullWidth from "../components/HeroFullWidth"
 import HeroSplitWidth from "../components/HeroSplitWidth"
 
 
-class BlogPostTemplate extends React.Component {
 
+class BlogPostTemplate extends React.Component {
 
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
-   console.log( post )
-
+  
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -33,6 +31,8 @@ class BlogPostTemplate extends React.Component {
                       srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
+                      imgLink = {post.frontmatter.imgLink}
+                      imgAuthor = {post.frontmatter.imgAuthor}
                       previous = {previous}
                       next = {next}
                       />
@@ -44,27 +44,22 @@ class BlogPostTemplate extends React.Component {
                       srcset= {post.frontmatter.cover.childImageSharp.fluid.srcSet}
                       title= {post.frontmatter.title}
                       category= {post.frontmatter.category} 
+                      imgLink = {post.frontmatter.imgLink}
+                      imgAuthor = {post.frontmatter.imgAuthor}
                       excerpt= {post.excerpt} 
                       previous = {previous}
                       next = {next}
                       />
-
-
                     }
 
 
-                       <div className="w-100 cf">
-                         <div id="imgCaption" className="mw9 center f6  ph4 pt3 ">
-                            <a className="link tracked-sm theme-75 dim pr2 pointer avenir" href={post.frontmatter.imgLink} >
-                              {post.frontmatter.imgAuthor}
-                            </a> 
-                         </div>
-                       </div>
+            
 
 
             <div className="w-100 pt3 ">
-
-
+            {/* Social Share buttons*/}
+                   <Scrollable />
+                   
                   {/* Page article content*/}
                   <article>
                       <div dangerouslySetInnerHTML={{ __html: post.html }}/>
@@ -99,13 +94,11 @@ class BlogPostTemplate extends React.Component {
                      </div>
                     </div>
 
-
+                 
                     {/* Avitar and bio of Author*/}
                     <Bio/>
 
 
-                    {/* Social Share buttons*/}
-                    <Scrollable />
                   
               </div>
           </div>

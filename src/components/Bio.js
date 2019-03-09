@@ -19,7 +19,7 @@ function Bio() {
                   style={{minWidth: '80px'}}
                 />
                   <div className="avenir theme-0-20  f6  fw4  pl3-ns lh-copy tracked-sm">
-                    {author} is creative and tech lead at <span className="theme-0-10 tracked-mega ttu fw6"> WOOPOO Digital Studios</span>, situated in the hills just outside the sea-side city of Durban, South Africa on the east coast of Africa. Rod likes to build usefull things.<br/>
+                    {author} is UI and UX lead at &nbsp;<span className="theme-0-10 tracked-mega ">Hoopoo Digital Studios,</span> situated in the hills, outside the sea-side city of Durban, South Africa – along the east coast of Africa. Rod likes to build usefull things.<br/>
                     <a className="link theme-25 dib" href={`https://twitter.com/${social.twitter}`}>
                       You should follow him on Twitter
                     </a>

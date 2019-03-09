@@ -35,3 +35,9 @@ background: linear-gradient(to bottom,rgb(234, 231, 240), rgb(255, 255, 255) ); 
 .theme-0-30 { color: var(--theme-0-30); }
 .theme-0-40 { color: var(--theme-0-40); }
 
+.b--theme-100 { border-color: var(--theme-100); }
+.b--theme-75 { border-color: var(--theme-75); }
+.b--theme-50 { border-color: var(--theme-50); }
+.b--theme-25 { border-color: var(--theme-25); }
+.b--theme-0 { border-color: var(--theme-0); }
+

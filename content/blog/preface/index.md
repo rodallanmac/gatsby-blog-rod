@@ -5,7 +5,7 @@ category: 'preface'
 published: true
 imgLink: 'https://www.pexels.com/@conojeghuo'
 imgAuthor: 'Photo: Clem Onojeghuo: London, UK'
-order: '2'
+order: '01'
 cover: './old-coffee-pot.jpeg'
 ---
 
