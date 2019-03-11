@@ -2,10 +2,10 @@
 title: Introduction of Coffee into Western Europe
 category: 'chapter 4'
 published: true
-imgAuthor: 'Painting: The birth of Venus, Sandro Botticelli 1483-1485. This universal icon of Western painting was probably painted around 1484 for the villa of Castello owned by Lorenzo di Pierfrancesco de Medici. https://artsandculture.google.com'
-imgLink: 'https://artsandculture.google.com/asset/the-birth-of-venus/MQEeq50LABEBVg'
+imgAuthor: "Painting: The Bucintoro Returning to the Molo. Creator. Canaletto, Giovanni Antonio Canal. The Bucintoro, the State Barge, is depicted returning to the quayside in front of the Doge's Palace, Venice. On board are the Doge and members of the Senate returning from the Ascension Day ceremony of the Sposalizio del Mare (the marriage of the Venetian Republic to the Adriatic Sea). https://artsandculture.google.com"
+imgLink: 'https://artsandculture.google.com/asset/the-bucintoro-returning-to-the-molo/xAEAR3tnP5eKZQ'
 order: '07'
-cover: './birth-of-venus.jpg'
+cover: './venetian.jpg'
 heroStyle: 'fullwidth'
 ---
 
